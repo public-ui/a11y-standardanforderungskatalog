@@ -2,7 +2,7 @@
 
 Dieses Git Repository enthält Ressourcen und Informationen im Zusammenhang mit der Barrierefreiheit für die öffentlichen Stellen des Bundes, speziell bezogen auf die Barrierefreie-Informationstechnik-Verordnung (BITV 2.0) und die Europäische Norm EN 301 549.
 
-Der Standardanforderungskatalog wurde in der Zusammenarbeit des **Bundesministerium des Innern und für Heimat** (BMI), dem **Land Hessen** und dem **Informationstechnikzentrum Bund** (ITZBund) realisiert. 
+Der Standardanforderungskatalog wurde in der Zusammenarbeit des **Bundesministerium des Innern und für Heimat** (BMI), dem **LBIT Hessen** und dem **Informationstechnikzentrum Bund** (ITZBund) realisiert. 
 
 ## Inhalte
 
