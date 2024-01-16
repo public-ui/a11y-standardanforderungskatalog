@@ -1,0 +1,33 @@
+{
+	"ignore": [
+		"scripts/**",
+		".eslintrc.js",
+		"commitlint.config.js",
+		"prettier.config.js",
+		"pwa-manifest.config.js",
+		"uno.config.ts",
+		"webpack.config.js",
+		"workbox-config.js"
+	],
+	"ignoreBinaries": ["cross-env", "eslint", "husky", "webpack"],
+	"ignoreDependencies": [
+		"@leanup/cli-pwa",
+		"@leanup/git-hooks",
+		"@leanup/stack",
+		"@leanup/stack-react",
+		"@leanup/stack-webpack",
+		"@types/node-fetch",
+		"@typescript-eslint/eslint-plugin",
+		"@typescript-eslint/parser",
+		"@unocss/preset-mini",
+		"@unocss/webpack",
+		"ajv",
+		"eslint-plugin-jsx-a11y",
+		"eslint-plugin-no-loops",
+		"eslint-plugin-react",
+		"node-fetch",
+		"node-html-parser",
+		"uno.css"
+	],
+	"ignoreWorkspaces": []
+}

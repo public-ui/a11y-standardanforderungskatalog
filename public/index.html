@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Standardanforderungskatalog für die Barrierefreiheit | BMI</title>
+		<meta name="description" content="Die Anwendung erstellt einen Anforderungskatalog zum Testen der Barrierefreiheit." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" type="image/x-icon" href="assets/kolibri.ico" />
+		<link rel="stylesheet" href="assets/bundes/style.css" />
+		<link rel="stylesheet" href="assets/codicons/codicon.css" />
+		<link rel="stylesheet" href="main.css" />
+
+		<!-- PWA setup -->
+		<link rel="manifest" href="manifest.json" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="application-name" content="BMI StAB" />
+		<meta name="apple-mobile-web-app-title" content="BMI StAB" />
+		<meta name="theme-color" content="#fff" />
+		<meta name="background_color" content="#fff" />
+		<meta name="msapplication-navbutton-color" content="#fff" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="msapplication-starturl" content="/bmi-afo-katalog/" />
+		<link rel="icon" sizes="128x128" href="assets/kolibri.png" />
+		<link rel="icon" type="image/x-icon" href="assets/kolibri.ico" />
+		<link rel="apple-touch-icon" sizes="128x128" href="assets/kolibri.png" />
+
+		<meta name="robots" content="noindex" />
+	</head>
+	<body>
+		<div id="bmi-stab-app"></div>
+		<script async src="main.js"></script>
+		<script>
+			var ua = window.navigator.userAgent;
+			if (ua.indexOf('MSIE ') > 0) {
+				document.getElementById('bmi-stab-app').innerHTML =
+					'Diese Anwendung basiert auf neuen Technologien, die vom abgekündigten Microsoft <strong>Internet Explorer</strong> nicht unterstützt werden! Bitte verwenden Sie einen aktuellen Brower, wie bspw. Google <strong>Chrome</strong>, Mozilla <strong>Firefox</strong> oder Microsoft <strong>Egde</strong>.';
+			}
+		</script>
+		<noscript>Diese Webseite erfordert, dass Sie JavaScript aktivieren.</noscript>
+	</body>
+</html>

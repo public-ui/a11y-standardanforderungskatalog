@@ -1,0 +1,836 @@
+[
+	{
+		"name": "Accessibility​",
+		"desc": "Deutsche Übersetzung: Barrierefreiheit"
+	},
+	{
+		"name": "Add-on",
+		"desc": "Ein Add-on ist eine unselbstständige Software-Komponente, die die bisherigen Nutzungsmöglichkeiten einer Hard- oder Software nach der Installation um weitere nützliche Funktionen ergänzt. Ein Add-on ist nicht standardmäßig im Lieferumfang einer Hard- oder Software enthalten und kann bei Bedarf nachträglich vom Nutzenden installiert werden."
+	},
+	{
+		"name": "Alternativtexte",
+		"desc": "Der Alternativtext (alt-Text) macht den Inhalt und die Funktion von Bildern für blinde Menschen zugänglich, da er von assistiven Technologien wiedergegeben werden kann. Der Alternativtext muss die Funktion und/oder den Bildinhalt einer Grafik vermitteln.",
+		"abbr": "ALT-Texte"
+	},
+	{
+		"name": "Annex",
+		"desc": "Anhang"
+	},
+	{
+		"name": "ARIA-Attribute",
+		"desc": "ARIA definiert einige zusätzliche Attribute wie aria-required oder aria-invalid, die sich für alle HTML-Elemente verwenden lassen. Sie lassen sich beispielsweise dafür verwenden, den Inhalt eines Eingabefeldes als ungültig zu markieren, etwa wenn in einer E-Mail-Adresse kein @-Zeichen vorkommt oder zwei Eingaben eines Kennworts (zur Bestätigung) nicht übereinstimmen."
+	},
+	{
+		"name": "Artefakt in PDFs",
+		"desc": "Artefakte sind unsichtbare Strukturinformationen. Sie beschreiben ein Seitenelement als dekorativ und/oder unwichtig."
+	},
+	{
+		"name": "assistive Technologie",
+		"desc": "Assistive (assistierende) Technologie ist der eingedeutschte Begriff von assistive technology und steht für mögliche Hilfsmittel, die benötigt werden um Informationen trotz Einschränkungen zugänglich, wahrnehmbar und verarbeitbar zu machen. Alternativ kann auch von assistierender Technologie gesprochen werden.\nUnter AT fallen folgende Soft- und Hardware:",
+		"abbr": "AT"
+	},
+	{
+		"name": "Audiodatei",
+		"desc": "Eine Audiodatei enthält hörbare Inhalte, wie zum Beispiel gesprochenen Text, Musik oder Geräusche."
+	},
+	{
+		"name": "Audiodeskription",
+		"desc": "Audiodeskription ist eine Akustische Bildbeschreibung."
+	},
+	{
+		"name": "Audiospur",
+		"desc": "Ein Video unterteilt sich in den hörbaren Teil (Audiospur oder Tonspur) und den sichtbaren Teil (Videospur oder Bildspur)."
+	},
+	{
+		"name": "Auditive Wahrnehmung",
+		"desc": "Wahrnehmung über den Hörsinn."
+	},
+	{
+		"name": "Auszeichnungssprache",
+		"desc": "Eine Auszeichnungssprache (englisch markup language, abgekürzt ML) ist eine maschinenlesbare Sprache für die Gliederung und Formatierung von Texten und anderen Daten. Der bekannteste Vertreter ist die Hypertext Markup Language (HTML)."
+	},
+	{
+		"name": "autocomplete Attribut",
+		"desc": "zeigt dem Browser, ob ein Eingabefeld automatisch ausgefüllt werden soll."
+	},
+	{
+		"name": "automatische Prüfung",
+		"desc": "Im Zusammenhang PDF-Dokumenten-Überprüfung:\nGemäß Matterhorn Protokoll können 87 Prüfpunkte durch eine Software geprüft werden. "
+	},
+	{
+		"name": "Autorenwerkzeug",
+		"desc": "Autorenwerkzeuge werden genutzt, um verschiedene Informationsprodukte für verschiedene Zielgruppen (Anwender*innen, Administrator*innen, Entwickler*innen) zu erstellen.\nDie zentrale Aufgabe besteht darin, Texte und Grafiken zu importieren oder zu erfassen, um diese Daten im gewünschten Ausgabeformat zur Verfügung zu stellen."
+	},
+	{
+		"name": "Barrierefreie Informationstechnik-Verordnung Mecklenburg-Vorpommern",
+		"desc": "Diese Verordnung dient der Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (ABl. L 327 vom 2.12.2016, S. 1) in Mecklenburg-Vorpommern.",
+		"abbr": "BITVO M-V"
+	},
+	{
+		"name": "Barrierefreie-IKT-Gesetz Berlin",
+		"desc": "Gesetz zur Barrierefreiheit in der Informtionstechnik in Berlin.",
+		"abbr": "BIKTG Bln"
+	},
+	{
+		"name": "Barrierefreie-Informationstechnik-Verordnung",
+		"desc": "Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz."
+	},
+	{
+		"name": "Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen",
+		"desc": "Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz des Landes Nordrhein-Westfalen.",
+		"abbr": "BITV NRW"
+	},
+	{
+		"name": "Barrierefreie-Informationstechnik-Verordnung Rheinland-Pfalz",
+		"desc": "Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz des Landes Rheinland-Pfalz.",
+		"abbr": "BITV RP"
+	},
+	{
+		"name": "Barrierefreie-Websites-Gesetz",
+		"desc": "Gesetz zur Umsetzung der Richtlinie (EU) 2016/2102 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen des Landes Saschen.",
+		"abbr": "BfWebG"
+	},
+	{
+		"name": "barrierefreies PDF",
+		"desc": "Ein PDF gilt in Deutschland als barrierefrei, wenn es mit dem Standard PDF/UA kompatibel ist und die Richtlinien der EN 301 549 (WCAG 2.1) sowie der DIN ISO 14 289 einhält."
+	},
+	{
+		"name": "Barrierefreiheitsstärkungsgesetz",
+		"desc": "Gesetz zur Umsetzung der Richtlinie (EU) 2019/882 des Europäischen Parlaments und des Rates über die Barrierefreiheits­anforderungen für Produkte und Dienstleistungen."
+	},
+	{
+		"name": "Bayerisches Behindertengleichstellungsgesetz",
+		"desc": "über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen.",
+		"abbr": "BayBGG"
+	},
+	{
+		"name": "Bayerisches Verordnung über die elektronische Verwaltung und die barrierefreie Informationstechnik",
+		"desc": "Bayerische Verordnung zur Umsetzung der Barrierefreiheit in der Informtionstechnik.",
+		"abbr": "BayEGovV"
+	},
+	{
+		"name": "Bedienelement",
+		"desc": "Bedienelemente sind Interaktionselemente in einer grafischen Benutzeroberfläche, welche verschiedene Eigenschaften in Verhalten und Eigenschaften haben. Bedienelemente sind z. B.: Formulare, Symbole und Icons, Symbol- und Werkzeugleisten, Menü, Menüleisten, Textfelder, Schaltflächen und Buttons, Checkboxen, Radiobutton, Baumansicht, Bildlaufleiste etc."
+	},
+	{
+		"name": "Behindertengleichstellungsgesetz",
+		"desc": "Gesetz zur Gleichstellung von Menschen mit Behinderungen."
+	},
+	{
+		"name": "Behindertengleichstellungsgesetz Nordrhein-Westfalen",
+		"desc": "Gesetz  des Landes Nordrhein-Westfalen zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "BGG NRW"
+	},
+	{
+		"name": "Behindertengleichstellungsgesetz Sachsen-Anhalt",
+		"desc": "Saschen-Anhaltisches Gesetz zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "BGG LSA"
+	},
+	{
+		"name": "Behindertengleichstellungsverordnung des Landes Sachsen-Anhalt ",
+		"desc": "Saschen-Anhaltische Verordnung zur Umsetzung des BGG LSA und zur Schaffung barrierefreier Informationstechnik durch öffentliche Stellen.",
+		"abbr": "BGGVO LSA"
+	},
+	{
+		"name": "Bildschirmleser",
+		"desc": "Siehe Screenreader"
+	},
+	{
+		"name": "Bildspur",
+		"desc": "Ein Video unterteilt sich in den sichtbaren Teil (Videospur oder Bildspur) und den hörbaren Teil (Audiospur oder Tonspur)."
+	},
+	{
+		"name": "Biometrie",
+		"desc": "Biometrische Daten sind biologische Messwerte – oder physische Merkmale –, die der Identifizierung von Personen dienen. Fingerabdruck-Mapping, Gesichtserkennung und Retina-Scans sind die bekanntesten Formen dieser Technologie."
+	},
+	{
+		"name": "Blind",
+		"desc": "Als blind gelten Menschen, die keine Sehkraft oder eine maximale Sehkraft von 0,02 besitzen."
+	},
+	{
+		"name": "Bookmarklets",
+		"desc": "Mini-Programm um die Webseite untersuchen zu können."
+	},
+	{
+		"name": "Braillezeile",
+		"desc": "Mit der elektronischen Braillezeile, ein Blindenhilfsmittel, können am Computermonitor angezeigte Inhalte haptisch wahrgenommen, also erfühlt werden. Die Eingabe erfolgt über die normale Tastatur."
+	},
+	{
+		"name": "Brandenburgische Barrierefreie Informationstechnik-Verordnung",
+		"desc": "Verordnung zur Umsetzung der Barrierefreiheit in der Informations- und Kommunikationstechnik in Brandenburg.",
+		"abbr": "BbgBITV"
+	},
+	{
+		"name": "Brandenburgisches Behindertengleichstellungsgesetz",
+		"desc": "Gesetz des Landes Brandenburg zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "BbgBBG"
+	},
+	{
+		"name": "Breadcrumb",
+		"desc": "Breadcrumb (deutsch: Brotkrumen, Brotkrümel) ist eine sekundäre Navigation innerhalb einer Webseite. Sie wird auch als Breadcrumb- oder Brotkrumen-Navigation oder Brotkrümelnavigation bezeichnet. „Brotkrumen“ bieten auf der Webseite den Benutzern in Form von internen Links die Möglichkeit, den Weg zurück zur Einstiegsseite zu finden oder andere Ebenen der Webseite schnell zu erreichen. Bei der Brotkrumen-Navigation kann der User somit nachvollziehen, welche Seiten er vorher besucht hat. Diese sekundäre Pfad-Navigation ist üblicherweise seitenhierarchisch aufgebaut und zeigt den logischen Pfad von der Einstiegsseite bis hin zur aktuellen Position. Eine Breadcrumb Navigation befindet sich häufig im oberen Seitenbereich und ist in der Regel als Design-Element nicht allzu auffällig."
+	},
+	{
+		"name": "Bremisches Behindertsengleichstellungsgesetz",
+		"desc": "Bremisches Gesetz zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "BremBGG"
+	},
+	{
+		"name": "Cascading Style Sheets",
+		"desc": "Cascading Style Sheets (CSS) gelten heutzutage als Standard für das Web, über den Stil und Inhalt einer Internetpräsenz getrennt voneinander gepflegt werden können.",
+		"abbr": "CSS"
+	},
+	{
+		"name": "Checkbox",
+		"desc": "Eine Checkbox dient zur Eingabe und Anzeige von Wahrheitswerten. Es ist üblich, die Auswahlbedingung nicht als Frage, sondern als Aussage zu formulieren (beispielsweise „Ich akzeptiere die Allgemeine Geschäftsbedingungen“ anstelle von „Akzeptieren Sie die Allgemeine Geschäftsbedingungen?“). Checkboxen werden häufig zum Aufbau von interaktiven Checklisten, Auswahl- oder Fragelisten verwendet, bei denen mehrere Optionen einer Liste angewählt werden können."
+	},
+	{
+		"name": "Checkliste",
+		"desc": "Eine Checkliste enthält wichtige Informationen, die bei der Umsetzung barrierefreier IT unterstützen sollen. Sie erheben jedoch kein Anspruch auf Vollständigkeit."
+	},
+	{
+		"name": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+		"desc": "CAPTCHA ist ein Sicherheitsmechanismus, der auch als Challenge-Response-Authentifizierung bekannt ist. CAPTCHA hilft beim Schutz vor Spam und Passwortentschlüsselung, indem er von der nutzenden Person einen einfachen Test machen lässt, der sicherstellt, dass die Person ein Mensch und kein Computer ist.",
+		"abbr": "CAPTCHA"
+	},
+	{
+		"name": "Custom-Tooltip",
+		"desc": "Tooltips mit variabler Größe mit dynamischen Shortcuts."
+	},
+	{
+		"name": "Dekorative Grafiken",
+		"desc": "Auf vielen Webseiten werden einige Bilder lediglich zur Behübschung eingebaut ohne dass diese Bilder zum Verständnis des Inhalts von Relevanz sind. Gelegentlich werden Bilder auch noch eingesetzt, um ein erwünschtes Layout zu realisieren. Solche Beispiele stehen exemplarisch für rein dekorative Bilder. Rein dekorative Bilder dienen lediglich ästhetischen Überlegungen und enthalten keinerlei Information oder interaktive Funktionalität. Siehe auch Layoutgrafiken."
+	},
+	{
+		"name": "Desktop-Publishing-Punkt",
+		"desc": "Der Desktop-Publishing-Punkt misst exat 0,3527 mm und ist zurzeit das einzig verlässliche Maß in den meisten Anwendungsprogrammen.",
+		"abbr": "DTP-Punkt"
+	},
+	{
+		"name": "Deutsche Gebärdensprache",
+		"desc": "Deutsche Gebärdensprache ist eine visuell wahrnehmbare Form von Sprache, die insbesondere von nicht-hörenden und schwerhörenden Menschen zur Kommunikation genutzt wird. Kommuniziert wird mit einer Verbindung von Gestik, Gesichtsmimik, dem Mundbild von lautlos gesprochenen Wörtern und Wechsel der Körperhaltung. Diese Elemente werden zu Sätzen und Satzfolgen kombiniert.",
+		"abbr": "DGS"
+	},
+	{
+		"name": "Deutsches Institut für Normung e. V.",
+		"desc": "Das Deutsche Institut für Normung e.V. (DIN) ist die unabhängige Plattform für Normung und Standardisierung in Deutschland und weltweit."
+	},
+	{
+		"name": "Digitale Barrierefreiheit",
+		"desc": "Digitale Barrierefreiheit umfasst alle Bereiche, die einen Zugang zum Internet oder digitalen Anwendungen für alle Nutzenden möglich machen. Als Grundlage dienen die Web Content Accessibility Guidelines 2.1 ( WCAG 2.1), auf denen auch die Barrierefreie-Informationstechnik-Verordnung fußt."
+	},
+	{
+		"name": "DIN EN ISO 9241-110",
+		"desc": "Die DIN EN ISO 9241-110, auch bekannt unter dem Begriff \"Interaktionsprinzipien\", spricht Empfehlungen für alle interaktiven Systeme aus. Enthaltene Anforderungen beziehen sich beispielsweise auf die Steuerung, individuelle Einstellungsmöglichkeiten oder die Dialoggestaltung. Die einzelnen Besonderheiten der verschiedenen Systeme werde in entsprechend einzelnen Ausarbeitungen berücksichtigt."
+	},
+	{
+		"name": "DIN-Norm",
+		"desc": "Eine DIN-Norm ist ein im Deutschen Institut für Normung erarbeiteter freiwilliger Standard, in dem materielle und immaterielle Gegenstände vereinheitlicht sind. Sie wird von einem Ausschuss entwickelt, geprüft und anschließend freigegeben."
+	},
+	{
+		"name": "Durchführungsbeschluss",
+		"desc": "Abkürzung DB:\nEin Durchführungsbeschluss erläutert einzelne, in einer Richtlinie angekündigte Pflichten und legt die weitere inhaltliche Ausgestaltung dieser Verpflichtungen dar."
+	},
+	{
+		"name": "Durchsetzungsstelle",
+		"desc": "Die Durchsetzungsstelle (auch Ombudsstelle oder Schlichtungsstelle genannt) bearbeitet auf Antrag von Bürger:innen das Durchsetzungsverfahren."
+	},
+	{
+		"name": "Durchsetzungsverfahren",
+		"desc": "Das Durchsetzungsverfahren ist Teil des sogenannten Feedback-Mechanismus. Sollte die Meldung ener Barriere nach 6 Wochen unbeantwortet bleiben oder unzureichend sein, kann ein Durchsetzungsverfahren beantragt werden. Daraufhin arbeitet die Durchsetzungsstelle mit der gemeldeten Stelle zusammen, um die Barriere zu beheben."
+	},
+	{
+		"name": "\"Einer für alle\"-Prinzip",
+		"desc": "EfA steht für „Einer für Alle“ und genau so soll möglichst jede OZG-Leistung nur einmal entwickelt und dann zur Nachnutzung freigegeben werden. Somit können Arbeit sowie Kosten verteilt und Doppelaufwand vermieden werden",
+		"abbr": "EfA"
+	},
+	{
+		"name": "Einfache Sprache",
+		"desc": "Die \"Einfache Sprache\" ist eine sprachlich vereinfachte Version der Standardsprache oder Fachsprache. Der Sprachstil ist einfacher, klarer und verständlicher. Texte in Einfacher Sprache dienen als Verständnisunterstützung für den Originaltext."
+	},
+	{
+		"name": "en-US",
+		"desc": "Bei dem Ausdruck „en-US“ handelt es sich um ein Sprachauszeichnungskürzel, bei dem „en“ für Englisch und „US“ für US-Amerikanisch steht."
+	},
+	{
+		"name": "Erklärung zur Barrierefreiheit",
+		"desc": "Auf der Webseite jeder öffentlichen Stelle ist eine \"Erklärung zur Barrierefreiheit\" gemäß Durchführungsbeschluss 2018/1523 bereitzustellen. In dieser Erklärung werden vorhandene Barrieren auf der Seite genannt sowie eine Begründung, warum der Inhalt nicht barrierefrei angeboten wird beziehungsweise ab wann dieser in einer barrierefreien Form verfügbar sein wird. Die Erklärung zur Barrierefreiheit muss von jeder Seite des Webauftritss verfügbar sein, zum Beispiel im Bereich des Footers.",
+		"abbr": "EzB"
+	},
+	{
+		"name": "EU-Durchführungsbeschluss",
+		"desc": "Siehe Durchführungsbeschluss"
+	},
+	{
+		"name": "EU-Richtlinie",
+		"desc": "Allgemeine Regelung, die von den Mitgliedstaaten der EU innerhalb einer bestimmten Frist in staatliches Recht umzusetzen ist; sie ist hinsichtlich des Zieles verbindlich, überlässt den Mitgliedstaaten jedoch die Wahl der Form und der Mittel.",
+		"abbr": "R (EU)"
+	},
+	{
+		"name": "Europäische Norm",
+		"desc": "Europäische Normen (EN) werden von den drei europäischen Komitees für Standardisierung genehmigt. Alle EN sind durch einen öffentlichen Normungsprozess entstanden.",
+		"abbr": "EN"
+	},
+	{
+		"name": "European Accessibility Act",
+		"desc": "Richtlinie über die Barrierefreiheitsanforderungen für Produkte und Dienstleistungen, auch als Richtlinie (EU) 2019/882 bekannt.",
+		"abbr": "EAA"
+	},
+	{
+		"name": "Extensible Hypertext Markup Language",
+		"desc": "XHTML wurde entwickelt, um HTML zu erweitern und die Kompatibilität mit neueren Datenformaten wie Videos, Bilder oder Skriptsprachen zu ermöglichen. Sie ist eine auf HTML 4.01 basierende Auszeichnungssprache, die in ihren Regeln aber deutlich strenger asugelegt ist. Die Entwicklung der Version XHTML 2.0 wurde Ende 23009 zugunsten von HTML5 eingestellt.",
+		"abbr": "XHTML"
+	},
+	{
+		"name": "Extensible Markup Language",
+		"desc": "Extensible Markup Language bedeutet auf Deutsch \"erweiterbare Auszeichnungssprache. Textdateien, die mit der Entwicklersprache XML erstellt wurden, erhalten die entsprechende Endung \"XML\" und lassen sich mit Texteditoren anzeigen, lesen und bearbeiten.",
+		"abbr": "XML"
+	},
+	{
+		"name": "Feedback-Mechanismus",
+		"desc": "Mithilfe des Feedback-Mechanismus können Barrieren schnell und rechtsverbindlich gemeldet werden. Das verpflichtende Kontaktformular stellt die Möglichkeit dar, elektronisch Kontakt aufzunehmen."
+	},
+	{
+		"name": "FITKO",
+		"desc": "Akronym: FITKO\nFöderale IT-Kooperation, zentrale Koordinierungs- und Vernetzungsstelle für Digitalisierungsvorhaben der öffentlichen Verwaltung in Deutschland"
+	},
+	{
+		"name": "Fokus",
+		"desc": "Bei grafischen Benutzeroberflächen hat das Element den Fokus, welches für die nächste Benutzereingabe relevant ist. Da einige Nutzende keine Maus benutzen können, bedienen sie sich der Tastatur, um durch Webseiten zu navigieren. Der Fokus erestzt also den Mauszeiger."
+	},
+	{
+		"name": "Frames, auch Rahmen",
+		"desc": "Über Frames kann der Anzeigebereich des Browsers in verschiedene frei definierbare Segmente aufgeteilt werden. Frames werden in einer speziellen HTML-Datei, das sogenannte Frameset, definiert."
+	},
+	{
+		"name": "Gehörlos",
+		"desc": "Gehörlose Menschen können keine auditiven Signale wahrnehmen. Aus diesem fällt ihnen das \"normale\" Sprechen schwer. Häufig kommunizieren diese Menschen stattdessen über Gebärdensprache. Ein anderes Wort für Gehörlosigkeit ist auch Taubheit."
+	},
+	{
+		"name": "Gesetz zur Förderung der elektronischen Verwaltung in Bremen",
+		"desc": "Bremisches Gesetz zur Förderung der elektronischen Verwaltung, welches in Verbindung mit dem Bremischen Behindertengleichstellungesetz Bestimmungen für die Barrierefreiheit in der Informations- und Kommunikationstechnik treffen.",
+		"abbr": "BremEgovG"
+	},
+	{
+		"name": "Gesetz zur Gleichstellung behinderter Menschen des Landes\nSchleswig-Holstein",
+		"desc": "Schleswig-Holsteinisches Gesetz zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "LBGG"
+	},
+	{
+		"name": "Gesetz zur Unterstützung der selbstbestimmten Teilhabe von\nMenschen mit Behinderungen im Freistaat Sachsen",
+		"desc": "Säschisches Gesetz zur Gleichstellung von Menschen mit Behinderungen.",
+		"abbr": "SächsGVBl. S. 542"
+	},
+	{
+		"name": "Guidance on Applying WCAG 2.0 to Non-Web Information\nand Communications Technologies",
+		"desc": "Der Leitfaden WCAG2ICT beschreibt, wie die Richtlinien für die Zugänglichkeit von Webinhalten (WCAG) 2.0 und ihre Prinzipien, Richtlinien und Erfolgskriterien auf Nicht-Web-Informations- und Kommunikationstechnologien angewendet werden können.",
+		"abbr": "WCAG2ICT"
+	},
+	{
+		"name": "Hamburgische Barrierefreie Informationstechnik-Verordnung",
+		"desc": "Verordnung zur Schaffung barrierefreier Informationstechnik für Menschen mit Behinderungen in Hamburg.",
+		"abbr": "HmbBITVO"
+	},
+	{
+		"name": "Hamburgisches Behindertengleichstellungsgesetz",
+		"desc": "Hamburgisches Gesetz zur Gleichstellung von Menschen mit Behinderungen und Verordnungsermächtigungsgrundlage für die HmBITVO.",
+		"abbr": "HmbBGG"
+	},
+	{
+		"name": "Handreichung",
+		"desc": "Eine Handreichung ist ein Dokument, das zu einem Sachverhalt informiert und/oder bei Umsetzung z. B. von barrierefreier IT unterstützen soll."
+	},
+	{
+		"name": "Haptische Wahrnehmung",
+		"desc": "Fachausdruck für die Wahrnehmung über den Tastsinn."
+	},
+	{
+		"name": "Hilfstechnologie",
+		"desc": "siehe assistive Technologie"
+	},
+	{
+		"name": "Hyper Text Markup Language",
+		"desc": "Auszeichnungssprache (Markup Language), mit der Texte strukturiert sowie Grafiken und multimediale Inhalte per Referenz eingebunden werden.",
+		"abbr": "HTML"
+	},
+	{
+		"name": "Hypertext Markup Language 5",
+		"desc": "HTML5 ist die fünfte Fassung einer Computersprache zur Auszeichnung und Vernetzung von Texten und anderen Inhalten elektronischer Dokumente.",
+		"abbr": "HTML5"
+	},
+	{
+		"name": "Identity",
+		"desc": "Ist ein Attribut, mit dem man Elemente eindeutig erkennen kann.",
+		"abbr": "ID"
+	},
+	{
+		"name": "In der Regel",
+		"desc": "In der Regel",
+		"abbr": "i.d.R."
+	},
+	{
+		"name": "Informations- und Kommunikationstechnik",
+		"desc": "Umfasst alle Kommunikationsanwendungen und technischen Medien, die für die Handhabung von Informationen und zur Unterstützung der Kommunikation eingesetzt werden.",
+		"abbr": "IKT"
+	},
+	{
+		"name": "Inklusion im Sport",
+		"desc": "Inklusion im Sport meint die gleichberechtigte Teilhabe von Menschen mit Behinderungen an Bewegungs-, Spiel- und Sportangeboten und am organisierten Sport. "
+	},
+	{
+		"name": "International Organization for Standardization",
+		"desc": "Die Internationale Organisation für Normung – kurz ISO – ist die internationale Vereinigung von Normungsorganisationen und erarbeitet internationale Normen in allen Bereichen mit Ausnahme der Elektrik und der Elektronik und mit Ausnahme der Telekommunikation.\nBei der ISO handelt es sich um einen Verein nach schweizerischem Recht (Art. 60 ZGB).",
+		"abbr": "ISO"
+	},
+	{
+		"name": "Internationale Standardklassifikation des Bildungswesens",
+		"desc": "Die International Standard Classification of Education der UNESCO klassifiziert und charakterisiert Schultypen und Schulsysteme. Sie unterscheidet mehrere Niveaus (Level) und eignet sich auch für die Angabe des Bildungsniveaus (des höchsten Bildungsabschlusses) im internationalen Vergleich.",
+		"abbr": "ISCED"
+	},
+	{
+		"name": "Internettelefonie, auch Voice-over-IP",
+		"desc": "VoIP ermöglicht es, weltweit kostenlos oder gegen sehr geringe Kosten über das Internet zu telefonieren.",
+		"abbr": "VoIP"
+	},
+	{
+		"name": "Intro",
+		"desc": "Das Intro ist eine kurzgefasste thematisch bezogene Einleitung von Text-, Musik-, Bild- und Videowerken."
+	},
+	{
+		"name": "ISO-Norm",
+		"desc": "Eine ISO-Norm ist eine von der Internationalen Organisation für Normung freigegebene Norm, die weltweite Standards zu erfüllen hat."
+	},
+	{
+		"name": "Job Access With Speech",
+		"desc": "JAWS ist ein Screenreader aus dem Hause Freedom Scientific.",
+		"abbr": "JAWS"
+	},
+	{
+		"name": "kognitiv",
+		"desc": "Der Begriff kognitiv bezeichnet Funktionen des Menschen, die mit Wahrnehmung, Lernen, Erinnern, Denken und Wissen in Zusammenhang stehen. Zu den kognitiven Fähigkeiten zählen unter anderem Aufmerksamkeit, Erinnerung, Lernen, Kreativität, Planen, Orientierung, Vorstellungskraft oder Wille."
+	},
+	{
+		"name": "KoliBri",
+		"desc": "Name der Komponenten-Bibliothek für Barrierefreiheit, erstellt im ITZBund",
+		"abbr": "KoliBri"
+	},
+	{
+		"name": "Konformitätsstufe A",
+		"desc": "A, niedrigste Stufe der digitalen Barrierefreiheit, höchste Priorität. Die Erfolgskriterien der Konformitätsstufe A werden auch als Mindestanforderungen bezeichnet."
+	},
+	{
+		"name": "Konformitätsstufe AA",
+		"desc": "AA, Standard, der für gute Zugänglichkeit erreicht werden sollte. Die Erfolgskriterien der Konformitätsstufe AA werden auch als Anforderungen an die gute Zugänglichkeit bezeichnet."
+	},
+	{
+		"name": "Konformitätsstufe AAA",
+		"desc": "AAA, höchste Stufe der digitalen Barrierefreiheit, niedrigste Priorität (relevant für zentrale Inhalte). Die Erfolgskriterien der Konformitätsstufe AAA werden auch als Maximalanforderungen oder Anforderungen zur Erreichung der höchstmöglichen Barrierefreiheit bezeichnet."
+	},
+	{
+		"name": "konvertieren",
+		"desc": "siehe Transformation"
+	},
+	{
+		"name": "L-BGG-Durchführungsverordnung",
+		"desc": "Verordnung zur Durchführung des Badenwürttembergischen Landes-Behindertengleichstelllungsgesetzes und zur Umsetzung des Durchführungsbeschlusses (EU) 2018/1523 der Kommission vom 11. Oktober 2018 zur Festlegung einer Mustererklärung zur Barrierefreiheit gemäß der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (ABl. L 256 vom 12.10.2018, S. 103) und des Durchführungsbeschlusses (EU) 2018/1524 der Kommission vom 11. Oktober 2018 zur Festlegung einer Überwachungsmethodik und der Modalitäten der Berichterstattung der Mitgliedstaaten gemäß der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (ABl. L 256 vom 12.10.2018, S. 108).",
+		"abbr": "L-BGG-DVO"
+	},
+	{
+		"name": "Landesbehindertengleichstellungsgesetz (Mecklenburg-Vorpommern)",
+		"desc": "Mecklenburg-Vorpommerisches Gesetz zur Gleichstellung von Menschen mit Behinderungen und Verordnungsermächtigung für die BITVO M-V.",
+		"abbr": "LBGG M-V"
+	},
+	{
+		"name": "Landesgsetz zur Gleichstellung von Menschen mit Behinderung",
+		"desc": "Baden-Württembergisches Gesetz zur Gleichstellung von Menschen mit Behinderungen und Verordnungsermächtigung für die L-BGG-DVO.",
+		"abbr": "L-BGG"
+	},
+	{
+		"name": "Landesinklusionsgesetz ",
+		"desc": "Rheinland-Pfälzisches Landesgesetz zur Gleichstellung, Inklusion und Teilhabe von Menschen mit Behinderungen",
+		"abbr": "lnklG RP"
+	},
+	{
+		"name": "Landesverordnung über den barrierefreien Zugang zu Websites und mobilen Anwendungen öffentlicher Stellen",
+		"desc": "Verordnung des Landes Schleswig-Holstein zur Umsetzung der Richtlinie (EU) Nummer 2102/2016 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen vom 26. Oktober 2016 (ABl. L 327)",
+		"abbr": "BfWebV SH"
+	},
+	{
+		"name": "Landmark-Roles",
+		"desc": "Landmark Roles erlauben die semantische Zuweisung einer Rolle zu HTML-Konstrukten. Dadurch kann für Screenreader die Aufgabe eines Oberflächenelements kenntlich gemacht werden, die sich aus den HTML-Elementen selbst nicht erschließt. Beispiele sind Slider (Schieberegler) oder Bäume. Für einige dieser Rollen gibt es seit HTML 5 auch dezidierte HTML-Elemente."
+	},
+	{
+		"name": "lang-Attribut",
+		"desc": "Das lang-Attribut gibt die Sprache des Inhalts oder des Wortes an.\nGängige Beispiele sind \"en\" für Englisch, \"es\" für Spanisch oder \"fr\" für Französisch."
+	},
+	{
+		"name": "Layoutgrafik",
+		"desc": "Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster oder rein dekorative Fotos."
+	},
+	{
+		"name": "Leichte Sprache",
+		"desc": "Leichte Sprache ist eine speziell geregelte einfache Sprache. Die sprachliche Ausdrucksweise des Deutschen und die Textformatierung zielt dabei auf die besonders leichte Verständlichkeit ab, da sie für Menschen mit Leseschwierigkeiten verständlich sein soll."
+	},
+	{
+		"name": "Lesereihenfolge",
+		"desc": "siehe Logische Lesereihenfolge"
+	},
+	{
+		"name": "Link",
+		"desc": "Ein Link stellt die Verbindung zwischen Computern, elektronischen Dokumenten, Computerprogrammen oder Webseiten her. Ein Link verbindet  Verzweigungen und Verknüpfungen, wobei es gleichgültig ist, ob dabei ein Prozess durchlaufen wird oder nicht. Formal identifiziert und lokalisiert der Uniform Resource Locator (URL) einen vorgegebenen Link."
+	},
+	{
+		"name": "Live Regions",
+		"desc": "Live Regions sind Teile einer Seite, die sich in unregelmäßigen Abständen aktualisieren. Diese Veränderungen können bei implementiertem ARIA von Screenreadern automatisch erkannt und gesprochen werden."
+	},
+	{
+		"name": "Logische Lesereihenfolge",
+		"desc": "Die logische Lesereihenfolge steht für die korrekte Reihenfolge, in welcher einzelne Inhaltsteile gelesen werden müssen, damit das Dokument richtig verstanden wird. Ein gutes Praxisbeispiel ist ein mehrspaltiges Layout, bei dem Zeile für Zeile innerhalb einer Spalte und nicht über die ganze Seite gelesen werden muss."
+	},
+	{
+		"name": "Markup-Language",
+		"desc": "Deutsche Übersetzung: Auszeichnungssprache\nEine Auszeichnungssprache ist eine maschinenlesbare Sprache für die Gliederung und Formatierung von Texten und anderen Daten."
+	},
+	{
+		"name": "Matterhorn Protokoll",
+		"desc": "Das Matterhorn Protokoll ist ein Dokument der PDF association, welches Softwareentwickler*innen und Prüfpersonen von Dokumenten hilft, ein PDF nach PDF/UA zu erstellen. Es beschreibt 136 Fehlerbedingungen, welche in 31 Prüfpunkte aufgeteilt sind. Von den 136 Fehlerbedingungen können 87 durch PAC 2021 geprüft werden. 47 Fehlerbedingungen müssen manuell durch einen Menschen geprüft werden. 2 Fehlerbedingungen können keiner dieser Kategorien zugeordnet werden. "
+	},
+	{
+		"name": "Medienalternative",
+		"desc": "Damit ist eine Alternative zu dem gerade verwendeten oder gezeigten Medium gemeint, zum Beispiel Text in Form von Untertiteln zu den gesprochenen Inhalten eines Videos oder eine gesprochene Erläuterung der sichtbaren Inhalte."
+	},
+	{
+		"name": "Metadaten",
+		"desc": "Metadaten beschreiben bestimmte Eigenschaften eines Dokuments . Bei einem Word-Dokument bspw. beinhalten Metadaten unter anderem Informationen über den Autor, den Zeitpunkt der Erstellung und letzten Bearbeitung des Dokuments ."
+	},
+	{
+		"name": "Motion Tracking",
+		"desc": "Automatisierte Erfassung und Analyse von Bewegungsabläufen. Wird häufig zur Steuerung von Anwendungen genutzt."
+	},
+	{
+		"name": "motorisch",
+		"desc": "In der Bewegung teils oder gänzlich eingeschränkt. "
+	},
+	{
+		"name": "Niedersächsiches Behindertengleichstellungsgesetz",
+		"desc": "Niedersächsiches Gesetz zur Gleichstellung von Menschen mit Behinderungen und Verordnungsermächtigungsgrundlage für die NBITVO.",
+		"abbr": "NBGG"
+	},
+	{
+		"name": "Niedersächsische Verordnung\nüber barrierefreie Informationstechnik öffentlicher Stellen",
+		"desc": "Niedersächsiche Verordnung zur Schaffung barrierefreier Informationstechnik nach dem  Niedersäschischen Behindertengleichstellungsgesetz.",
+		"abbr": "NBITVO"
+	},
+	{
+		"name": "NonVisual Desktop Access",
+		"desc": "Ist ein Screenreader.\nSiehe Screenreader",
+		"abbr": "NVDA"
+	},
+	{
+		"name": "Ombudsstelle",
+		"desc": "Siehe Durchsetzungsstelle"
+	},
+	{
+		"name": "Onlinezugangsgesetz",
+		"desc": "Das Gesetz zur Verbesserung des Onlinezugangs zu Verwaltungsleistungen, kurz Onlinezugangsgesetz bzw. OZG, vom 14.08.2017 verpflichtet alle deutschen Behörden, bis Ende 2022 ihre Verwaltungsleistungen auch digital anzubieten. Außerdem müssen die Verwaltungsportale von Bund, Ländern und Kommunen so zu einem Portalverbund verknüpft werden, dass Nutzerinnen und Nutzer die Verwaltungsleistungen aller Portale finden und nutzen können und dies mit einem einzigen Account möglich ist.",
+		"abbr": "OZG"
+	},
+	{
+		"name": "Open Source Software",
+		"desc": "Software, die allen zur Nutzung zur Verfügung steht. Die Lizenzbedingungen regeln die möglichen Nutzungen und gegebenenfalls daraus resultierende Pflichten. "
+	},
+	{
+		"name": "optical character recognition",
+		"desc": "Optical character recognition, übersetzt Texterkennung, ist ein Begriff aus der Informationstechnik. Es bezeichnet die automatisierte Texterkennung bzw. automatische Schrifterkennung innerhalb von Bildern. Ursprünglich basierte die automatische Texterkennung auf optischer Zeichenerkennung. ",
+		"abbr": "OCR"
+	},
+	{
+		"name": "Pandemie",
+		"desc": "Eine Pandemie ist eine sich schnell weiter verbreitende, ganze Landstriche, Länder und Kontinente erfassende Krankheit. Sie bleibt also im Gegensatz zur Epidemie nicht regional begrenzt."
+	},
+	{
+		"name": "PDF Accessibility Checker",
+		"desc": "Der PDF Accessibility Checker 2021 ist ein kostenloses Programm der PDF/UA Foundation zum Prüfen barrierefreier PDF-Dokumente. Mit PAC - als weltweit erstem Prüftool auf PDF/UA - kann jeder prüfen, ob seine PDF-Dokumente den neuen ISO-Standard für zugängliche PDFs erfüllen.\nPAC bietet:",
+		"abbr": "PAC"
+	},
+	{
+		"name": "PDF association e.V.",
+		"desc": "Der Verband bietet weltweit Möglichkeiten für die Weiterbildung, die Entwicklung und den Erfahrungsaustausch für verschiedene Interessengruppen an. (Quelle: PDF Association und PDF association)"
+	},
+	{
+		"name": "Piktogramm",
+		"desc": "Das Wort Piktogramm leitet sich von dem lateinischen Begriff pictum ('gemalt', 'Bild') und dem griechischen gráphein ('schreiben') ab. Dementsprechend ist ein Piktogramm ein Bild oder Symbol, welches durch eine vereinfachte graphische Darstellung eine Information vermittelt."
+	},
+	{
+		"name": "Player",
+		"desc": "s. Videoplayer"
+	},
+	{
+		"name": "Plugin",
+		"desc": "Ein Plug-In ist ein Softwareprogramm, auf das von anderen Softwareanwendungen zugegriffen werden kann, um deren Funktionalität zu erweitern. Im Gegensatz zu Add-Ons greifen diese Softwareanwendungen dann mit Hilfe vom Hersteller definierten Schnittstellen auf die Plug-Ins zu, wenn diese benötigt werden."
+	},
+	{
+		"name": "Pop-up",
+		"desc": "Ein Pop-up ist ein Element einer grafischen Benutzeroberfläche. In der Regel werden Pop-ups eingesetzt, um zusätzliche Inhalte anzuzeigen oder eine bestimmte Interaktion abzufragen. Sie werden angezeigt, wenn der Fokus auf einem mit einem Pop-up versehenen Element liegt (Mouse-Over oder Tastaturfokus)."
+	},
+	{
+		"name": "Portable Document Format",
+		"desc": "PDF ist ein „transportables Dokumentenformat“. Es gilt als revisionssicher und behält Formatierungen programm- und geräteübergreifend bei.",
+		"abbr": "PDF"
+	},
+	{
+		"name": "Portable Document Format / Universal Accessibility",
+		"desc": "PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für Universal Accessibility. Dieser Standard definiert Anforderungen an die Barrierefreiheit eines PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen, muss nicht die ISO-Dokumentation erworben werden. Mithilfe des kostenlosen PAC lässt sich ein Dokument auf dessen PDF/UA-Kompatibilität prüfen.\nPDF/UA baut auf die WCAG auf, widerspricht diesen Richtlinien nicht, behandelt aber nicht alle Regelungen der WCAG.",
+		"abbr": "PDF/UA"
+	},
+	{
+		"name": "Quellcode",
+		"desc": "Quelltext, auch Quellcode (englisch source code) oder unscharf Programmcode genannt, ist in der Informatik der für Menschen lesbare, in einer Programmiersprache geschriebene Text eines Computerprogrammes."
+	},
+	{
+		"name": "Quelltext",
+		"desc": "Siehe Quellcode"
+	},
+	{
+		"name": "Radiobutton",
+		"desc": "Ein Radiobutton ist ein Steuerelement grafischer Benutzeroberflächen, das der Auswahl genau einer Option aus mehreren dient. Radiobuttons sind meist unter, manchmal auch nebeneinander angeordnete kleine Kreise, in Zusammenhang mit Beschreibungstexten."
+	},
+	{
+		"name": "Resource Descrption Framework",
+		"desc": "Resource Descrption Framework bezeichnet eine technische Herangehensweise im Internet zur Formulierung logischer Aussagen über beliebige Ressourcen und wurde ursprünglich vom W3C als Standard zur Beschreibung von Metadaten konzipiert. Mittlerweile gilt RDF als ein grundlegender Baustein des Semantischen Webs.",
+		"abbr": "RDF"
+	},
+	{
+		"name": "Rot, Grün, Blau",
+		"desc": "In HTML kann eine Farbe als RGB-Wert mit dieser Formel angegeben werden:\nJeder Parameter (Rot, Grün und Blau) definiert die Intensität der Farbe mit einem Wert zwischen 0 und 255.\nDas bedeutet, dass es 256 x 256 x 256 = 16777216 mögliche Farben gibt!\nBeispielsweise wird RGB (255, 0, 0) als Rot angezeigt, da Rot auf den höchsten Wert (255) gesetzt ist und die anderen beiden (Grün und Blau) auf 0 gesetzt sind.\nEin weiteres Beispiel, RGB (0, 255, 0) wird als Grün angezeigt, weil Grün auf seinen höchsten Wert (255) gesetzt ist und die anderen beiden (Rot und Blau) auf 0 gesetzt sind.\nFür Schwarz werden alle Farbparameter auf 0 gesetzt: RGB (0, 0, 0).\nFür Weiß werden alle Farbparameter auf 255 gesetzt: RGB (255, 255, 255).",
+		"abbr": "RGB"
+	},
+	{
+		"name": "Rot, Grün, Blau, Alpha– Werte",
+		"desc": "Ein RGBA-Farbwert ist eine Erweiterung von RGB mit einem Alpha-Kanal, der die Transparenz angibt.",
+		"abbr": "RGBA"
+	},
+	{
+		"name": "Saarländische Behindertengleichstellungsverordnung",
+		"desc": "Verordnung zum Gesetz zur Gleichstellung von Menschen mit Behinderungen im Saarland.",
+		"abbr": "SBGVO"
+	},
+	{
+		"name": "Saarländisches Behindertengleichstellungsgesetz",
+		"desc": "Saarländisches Gesetz zur Gleichstellung von Menschen mit Behinderung.",
+		"abbr": "SBGG"
+	},
+	{
+		"name": "Scalable Vector Graphics",
+		"desc": "Scalable Vector Graphics, im Deutschen \"skalierbare Vektorgrafiken\" ist eine vom W3C empfohlene Spezifikation zur Beschreibung zweidimensionaler Vektorgrafiken.Wesentlicher Vorteil des vektorbasierten SVG-Formates gegenüber anderen Grafikformaten wie JPG, PNG oder TIFF ist – insbesondere im Responsiven Webdesign – die Skalierbarkeit ohne Qualitätsverlust, gegenüber der prinzipbedingt verlustbehafteten Skalierbarkeit von pixel-basierten Rastergrafiken. ",
+		"abbr": "SVG"
+	},
+	{
+		"name": "Schlichtungsstelle",
+		"desc": "Siehe Durchsetzungsstelle"
+	},
+	{
+		"name": "Screenreader",
+		"desc": "Ein Screenreader ist ein für Blinde und Sehbehinderte sehr wichtiges Hilfsprogramm, um den Computer und das Internet nutzen zu können. Er gibt den aktuellen Bildschirminhalt per Sprachausgabe und/oder Braillezeile wieder."
+	},
+	{
+		"name": "Sehbehindert",
+		"desc": "Menschen gelten als sehbehindert, wenn sie mit Hilfsmitteln (z. B. eine Brille) eine maximale Sehkraft von 30% besitzen."
+	},
+	{
+		"name": "Sekundarstufe I",
+		"desc": "Betrifft AAA-Kriterien, in Bezug auf das Leseverständnis.\nDie Sekundarstufe I umfasst die Schulstufen der mittleren Bildung. Das entspricht dem Level 2 der ISCED.\nIn Deutschland gehören zur Sekundarstufe I (jeweils bis einschließlich Klasse 10) die Hauptschule, die Realschule, die verbundene Haupt- und Realschule (in den Ländern unterschiedliche Bezeichnungen: Regionalschule, Regelschule, Sekundarschule, Mittelschule, Oberschule, Realschule plus, Erweiterte Realschule), die Oberschule in Bremen, die Stadtteilschule in Hamburg, das Gymnasium (bis einschließlich Klasse 9 bzw. Klasse 10) und die Sonerschule (Förderschule)."
+	},
+	{
+		"name": "Sekundarstufe II",
+		"desc": "Betrifft AAA-Kriterien, in Bezug auf das Leseverständnis.\nDie Sekundarstufe II umfasst die Jahrgangsstufen der höheren Bildung, das entspricht dem Level 3 der ISCED.\nIn Deutschland: die gymnasiale Oberstufe, die berufsbildenden Schulen und die Weiterbildungsschulen für Erwachsene (Abendschulen und Kollegs)."
+	},
+	{
+		"name": "sensorisch",
+		"desc": "Während sensorisch im angelsächsischen Sprachraum für jede Sinnesempfindung gebraucht wird, unterscheidet man im Deutschen zwischen sensorisch und sensibel. Zu den sensorischen Wahrnehmungen zählen: Sehen, Hören, Schmecken, Riechen, sowie der Gleichgewichtssinn."
+	},
+	{
+		"name": "Shortcuts",
+		"desc": "Mit dem Begriff \"Shortcut\" wird das gleichzeitige Drücken mehrerer bestimmter Tasten auf einer Tastatur bezeichnet. Dadurch führt der Computer dann die Befehle aus, die dieser Kombination zugeordnet sind."
+	},
+	{
+		"name": "SmartArt",
+		"desc": "Eine SmartArt-Grafik ist eine visuelle Darstellungvon Informationen. Zur Erstellung stehen verschiedene Layouts zur Verfügung, wobei Einige, bestimmte Arten von Informationen wiedergeben, während andere einfach die Darstellung einer Aufzählung verbessern."
+	},
+	{
+		"name": "Sprunglink",
+		"desc": "Ein Sprunglink der auch Anker, ist ein Link innerhalb einer Seite zum Überspringen von Seitenbereichen oder auch, um zu genau einem Bereich auf einer Seite zu gelangen."
+	},
+	{
+		"name": "States und Properties",
+		"desc": "States und Properties werden für richtige JavaScript-Widgets verwendet (wie beispielsweise einer aus div-Elementen bestehenden Liste von Optionen), um semantisch bedeutsame Eigenschaften des jeweils aktuellen Zustands auszuzeichnen. Beispielsweise muss die Tastaturnavigation inklusive der Hervorhebung des gerade aktiven Elements bei eigenen JavaScript-Widgets selbst implementiert werden. Damit die Information, welches Element gerade aktiv ist, nicht nur optisch durch Hervorhebung, sondern etwa auch Navigationshilfen für Sehbehinderte zur Verfügung steht, kann mit activedescendant das aktuell fokussierte Element ausgewiesen werden. ARIA stellt als semantische Erweiterung einen Standard für die Auszeichnung solcher Informationen zur Verfügung"
+	},
+	{
+		"name": "Steuerelemente",
+		"desc": "Siehe Bedienelemente"
+	},
+	{
+		"name": "Syntax",
+		"desc": "Unter der Syntax einer Programmiersprache in der Informatik versteht man ein System von Regeln, nach denen wohlgeformte Ausdrücke, Formeln, Programmtexte oder andere Texte aus einem grundlegenden Zeichenvorrat (dem Alphabet) gebildet werden."
+	},
+	{
+		"name": "Table Data Cell",
+		"desc": "<td>\nAuszeichnung der Datenzelle einer Tabelle in HTML."
+	},
+	{
+		"name": "Table Head",
+		"desc": "<th>\nAuszeichnung des Tabellenkopfes in HTML."
+	},
+	{
+		"name": "Table Row",
+		"desc": "<tr>\nAuszeichnung der Tabellenzeile in HTML."
+	},
+	{
+		"name": "Tag",
+		"desc": "Ein Tag (ausgesprochen [tæg]; aus englisch tag entlehnt, für Etikett, Mal, [Ab-]Zeichen, Auszeichner, Anhänger oder Schildchen) ist eine Auszeichnung eines Datenbestandes mit zusätzlichen Informationen."
+	},
+	{
+		"name": "Tagged PDF",
+		"desc": "siehe Tags"
+	},
+	{
+		"name": "Tags",
+		"desc": "Tags fügen einer PDF-Datei nicht sichtbar Codierungen hinzu. Jedes Tag identifiziert den Inhaltstyp und speichert einige damit verbundene Attribute. Darüber hinaus ordnen Tags das Dokument auch in einer hierarchischen Struktur an. Dadurch wird der Inhalt des PDFs in (Überschriften, Absätze, Listen, Fußnoten, Bilder, Tabellen etc.) geordnet."
+	},
+	{
+		"name": "TalkBack",
+		"desc": "TalkBack ist der Screenreader von Google auf Android-Geräten."
+	},
+	{
+		"name": "Tastaturbefehle",
+		"desc": "siehe Tastenkombination"
+	},
+	{
+		"name": "Tastaturkurzbefehle",
+		"desc": "siehe Tastaturkombinationen"
+	},
+	{
+		"name": "Tastenkombinationen",
+		"desc": "Tastenkombinationen dienen zum Ausführen von Befehlen mittels Tastatur. So werden Screenreader über Tastenkombinationen gesteuert."
+	},
+	{
+		"name": "Taub",
+		"desc": "Siehe Gehörlos"
+	},
+	{
+		"name": "Thüringer Barrierefreie-Informationstechnik-Verordnung ",
+		"desc": "Thüringer Verordnung zur Schaffung barrierefreier Informationstechnik nach\ndem Thüringer Gesetz über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen.",
+		"abbr": "ThürBITVO"
+	},
+	{
+		"name": "Thüringer Gesetz über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen",
+		"desc": "Verordnungsermächtigungsgrundlage für die ThürBITVO.",
+		"abbr": "ThürBarrWebG"
+	},
+	{
+		"name": "Tonspur",
+		"desc": "s. Audiospur"
+	},
+	{
+		"name": "Touchpad",
+		"desc": "Der Begriff Touchpad bzw. Tastfeld bezeichnet eine berührungsempfindliche Fläche, die beispielsweise als Maus- und Tastenersatz in Notebooks meistens unterhalb der Tastatur angebracht sein kann."
+	},
+	{
+		"name": "Touchscreen",
+		"desc": "Bei Smartphones und Tablets sind Touchscreens üblich zur Eingabe von Befehlen oder zur Steuerung."
+	},
+	{
+		"name": "Transformation",
+		"desc": "Umwandlung in ein anderes Format."
+	},
+	{
+		"name": "Überwachungsstelle",
+		"desc": "Die Überwachungsstelle überprüft die Webseiten und Apps öffentlicher Stellen anhand von Stichproben. Der Stichprobenumfang richtet sich nach der Einzahl von Einwohner:innen in dem jeweiligen Zuständigkeitsgebiet der Überwachungsstelle."
+	},
+	{
+		"name": "Uniform Resource Locator",
+		"desc": "Uniform Resource Locator ist englisch für einheitlicher Resourcenanzeiger und werden im allgemeinen Sprachgebrauch gemeinhein als Internet- oder Webadresse bezeichnet."
+	},
+	{
+		"name": "United Nations Educational, Scientific and Cultural Organization",
+		"desc": "Die UNESCO hat als Sonderorganisation der Vereinten Nationen die Aufgabe, durch Förderung der internationalen Zusammenarbeit in Bildung, Wissenschaft, Kultur und Kommunikation zur Erhaltung des Friedens und der Sicherheit beizutragen.",
+		"abbr": "UNESCO"
+	},
+	{
+		"name": "Universal Design",
+		"desc": "Universal Design, deutsch Universelles Design, ist ein internationales Design-Konzept, das Produkte, Geräte, Umgebungen und Systeme derart gestaltet, dass sie für so viele Menschen wie möglich ohne weitere Anpassung oder Spezialisierung nutzbar sind.\nUniverselles Design besteht dabei aus zwei wesentlichen Komponenten:"
+	},
+	{
+		"name": "Untertitel",
+		"desc": "Untertitel Untertitel geben relevante hörbare Inhalte eines Videos als lesbaren Text wieder, der in der Regel unten im Bild eingeblendet wird."
+	},
+	{
+		"name": "Usability",
+		"desc": "Usability übersetzt man am besten mit Gebrauchstauglichkeit oder Benutzerfreundlichkeit.\nUsability bezeichnet das Ausmaß, in dem ein Produkt, System oder Dienst durch bestimmte Benutzer in einem bestimmten Anwendungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen."
+	},
+	{
+		"name": "Video",
+		"desc": "Video ist ein anderer Begriff für Film. Mit einem Video können sichtbare und hörbare Inhalte wiedergegeben werden."
+	},
+	{
+		"name": "Videoplayer",
+		"desc": "Ein Videoplayer ist eine IT-Anwendung, mit der eine Videodatei abgespielt werden kann."
+	},
+	{
+		"name": "Videospur",
+		"desc": "s. Bildspur"
+	},
+	{
+		"name": "Visuell",
+		"desc": "sichtbar, mit den Augen wahrnehmbar"
+	},
+	{
+		"name": "Visuelle Anzeige von akustischen Benachrichtigungen",
+		"desc": "Dabei handelt es sich um Pop-ups, die anzeigen, dass jemand anruft und wer anruft. Diese Funktion ist vor allem für hörgeschädigte Menschen wichtig."
+	},
+	{
+		"name": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies"
+	},
+	{
+		"name": "WCAG Konformitätsstufen",
+		"desc": "Es gibt drei WCAG Konformitätsstufen. Die Erfolgskriterien der Konformitätsstufen A und AA sind bereits nach dem Standard EN 301 549 verbindlich einzuhalten.\nDie Erfolgskriterien der Konformitätsstufe AAA werden im Standard EN 301 549 in Annex D lediglich informatorisch aufgelistet."
+	},
+	{
+		"name": "Web Accessibility Initiative – Accessible Rich Internet Applications",
+		"desc": "WAI-ARIA ist eine Initiative zur Verbesserung von Webseiten und Webanwendungen, um sie für Menschen mit Behinderungen besser zugänglich zu machen, insbesondere für blinde Anwender, die Vorleseprogramme verwenden.\nARIA ist eine technische Spezifikation, die von Mitgliedern der Web Accessibility Initiative entwickelt wurde. Seit März 2014 ist ARIA ein empfohlener Webstandard des World Wide Web Consortium (W3C).",
+		"abbr": "WAI-ARIA"
+	},
+	{
+		"name": "Web Content Accessibility Guidelines",
+		"desc": "Die WCAG ist eine mehrstufige Richtlinie und Anleitung, IT-Anwendungen für Menschen mit Behinderungen so barrierefrei wie möglich zu gestalten.",
+		"abbr": "WCAG"
+	},
+	{
+		"name": "Web Ontology Language",
+		"desc": "Die Web Ontology Language, kurz OWL,  ist eine Spezifikation des World Wide Web Consortiums (W3C), um Ontologien anhand einer formalen Beschreibungssprache erstellen, publizieren und verteilen zu können. Es geht darum, Termini einer Domäne und deren Beziehungen formal so zu beschreiben, dass auch Software die Bedeutung verarbeiten kann.",
+		"abbr": "OWL"
+	},
+	{
+		"name": "World Wide Web Consortium",
+		"desc": " Das World Wide Web Consortium (W3C) ist eine am 1. Oktober 1994 gegründete Standardisierungsorganisation für Techniken im World Wide Web. \nEs wurden beispielsweise folgende W3C Technologien standardisiert: "
+	},
+	{
+		"name": "Wort-Bild-Marken",
+		"desc": "Die Bezeichnung Wort-Bild-Marke erklärt sich aus der Kombination aus Text (Wort) und Grafik (Bild). Damit grenzt sie sich von Marken ab, die aus reinem Text (Wortmarke) oder aus reiner Grafik (Bildmarke) bestehen."
+	},
+	{
+		"name": "Zeitbasierte Medien",
+		"desc": "Zeitbasierte Medien benötigen Zeit für ihre Wiedergabe. Dazu gehören Audios, Videos, Animationen oder ähnliches."
+	},
+	{
+		"name": "Zeitstrahl",
+		"desc": "Ein Zeitstrahl ist eine Darstellung von Zeiträumen und Abfolgen zeitlicher Ereignisse in Form einer Grafik oder Tabelle."
+	},
+	{
+		"name": "zum Beispiel",
+		"abbr": "z.B."
+	},
+	{
+		"name": "Web Content Accessibility Guidelines",
+		"abbr": "WCAG"
+	}
+]

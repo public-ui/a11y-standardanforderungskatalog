@@ -1,0 +1,15 @@
+{
+	"sheetName": "DATEN",
+	"firstColHeader": "Nr.",
+	"fixedCols": {
+		"chapter": "Abschnitt",
+		"title": "Titel der Anforderung",
+		"requirement": "Anforderung",
+		"WcagChapter": "WCAG-Abschnitt",
+		"noteCap09": "Anm. Abschnitt 9",
+		"noteCap10": "Anm. Abschnitt 10",
+		"noteCap11": "Anm. Abschnitt 11",
+		"conformityLevel": "A, AA, AAA",
+		"implementationAids": "Umsetzungshilfe(n)"
+	}
+}

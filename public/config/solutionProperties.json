@@ -1,0 +1,68 @@
+﻿{
+	"options": {
+		"basics": {
+			"label": "Basisfunktionalität",
+			"shortLabel": "Basisfunktionalität",
+			"defaultValue": true,
+			"hint": "Basisfunktionalitäten sind alle Funktionalitäten, die erfahrungsgemäß in allen Anwendungen vorhanden sind. Der Filter „Basisfunktionalität“ ist standardmäßig immer ausgewählt.",
+			"excelColHeader": "Basic"
+		},
+		"informativ": {
+			"label": "Informativ",
+			"shortLabel": "Informativ",
+			"defaultValue": false,
+			"hint": "Informative Texte geben weiterführende Informationen und stellen keine prüfbaren Anforderungen dar.",
+			"excelColHeader": "Informativ"
+		},
+		"audio": {
+			"label": "Audio",
+			"shortLabel": "Audio",
+			"defaultValue": false,
+			"hint": "Audiofunktionalität ist die akustische oder klangliche Wiedergabe von Informationen.",
+			"excelColHeader": "Audio"
+		},
+		"video": {
+			"label": "Video",
+			"shortLabel": "Video",
+			"defaultValue": false,
+			"hint": "Videofunktionalität ist die synchrone Wiedergabe von visuellen (sichtbaren) und optional akustischen (hörbaren) Informationen.",
+			"excelColHeader": "Video"
+		},
+		"zweiWege": {
+			"label": "Zweiwege-Sprachkommunikation",
+			"shortLabel": "Zweiwege-Sprachkommunikation",
+			"defaultValue": false,
+			"hint": "Zweiwege-Sprachkommunikation ist der Austausch von Sprach- und/oder Videoinformationen in zwei Richtungen (z. B. Telefonie und Videokonferenzsysteme).",
+			"excelColHeader": "2-Wege-Komm"
+		},
+		"rtt": {
+			"label": "Echtzeittext (RTT)",
+			"shortLabel": "Echtzeittext (RTT)",
+			"defaultValue": false,
+			"hint": "Echtzeittext, Englisch \"real-time-text\" (RTT), bezeichnet die unmittelbare Übertragung von einzelnen schriftlichen Zeichen. Empfänger von Echtzeittext können somit den Schreibprozess direkt mitverfolgen. Echtzeittext findet vor allem in Kommunikations- und Kollaborationslösungen Anwendung, z. B. in Form einer Live-Untertitelung.",
+			"excelColHeader": "RTT"
+		},
+		"biometric": {
+			"label": "Biometrie",
+			"shortLabel": "Biometrie",
+			"defaultValue": false,
+			"hint": "Biometrie ist die Verwendung von biologischen Merkmalen zur Benutzeridentifikation oder Steuerung, z. B. Fingerabdruck oder Gesichtserkennung.",
+			"excelColHeader": "Biometrie"
+		},
+		"authorTools": {
+			"label": "Autorenwerkzeug",
+			"shortLabel": "Autorenwerkzeug",
+			"defaultValue": false,
+			"hint": "Ein Autorenwerkzeug ist jede Möglichkeit, Text in strukturierter Form zu erstellen oder zu bearbeiten, z. B. Textverarbeitungsprogramme, White Boards, aber auch Texteingabefelder mit Strukturierungsmöglichkeiten (z. B. Kommentarfunktion).",
+			"excelColHeader": "Autoren-werkzeug"
+		},
+		"aaa": {
+			"label": "Höchstmögliches Maß",
+			"shortLabel": "Höchstmögliches Maß Barrierefreiheit",
+			"defaultValue": false,
+			"hint": "Gemäß § 3 Absatz 4 BITV soll das höchstmögliche Maß an Barrierefreiheit für folgendes angewendet werden: zentrale Navigations- und Einstiegsangebote, Authentifizierungs-, Identifizierungs- und Zahlungsprozesse sowie Angebote mit Nutzerinteraktion, z. B. Formulare. Bei einer Auswahl dieses Filters werden Ihnen Anforderungen ausgegeben, die über die Mindestanforderungen der EN 301 549 (Version 3.2.1) hinausgehen.",
+			"excelColHeader": "Höchstmögliches Maß"
+		}
+	},
+	"strictOptions": ["aaa", "informativ"]
+}

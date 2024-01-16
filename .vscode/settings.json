@@ -1,0 +1,9 @@
+{
+	"editor.formatOnSave": true,
+	"editor.renderWhitespace": "all",
+	"html.customData": ["./node_modules/@public-ui/components/vscode-custom-data.json"],
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.updateImportsOnFileMove.enabled": "always"
+}

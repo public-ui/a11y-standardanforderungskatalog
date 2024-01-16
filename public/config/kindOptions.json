@@ -1,0 +1,58 @@
+﻿{
+	"web-site": {
+		"label": "Website/Webanwendung",
+		"shortLabel": "Web",
+		"abbreviation": "Web",
+		"excelColHeader": "Website / Web-Anw.",
+		"hint": "Jede IT-Lösung, die mit Webtechnologie erstellt wurde und über eine URL aufrufbar ist. Dies sind sowohl informative Inter-/Intranetauftritte als auch (mobile) Anwendungen, die im Browser wiedergegeben werden."
+	},
+	"documents": {
+		"label": "Dokument",
+		"shortLabel": "Dokument",
+		"abbreviation": "Dok",
+		"excelColHeader": "Dokumente",
+		"hint": "Jede Art von Dokumenten, die nicht als Web-Inhalt bereitgestellt werden, z. B. PDF oder Office-Dateien. Die Anforderungen gelten sowohl für eigenständig erzeugte Dokumente als auch für Dokumente, die über eine IT-Anwendung bereitgestellt oder von ihr erzeugt werden."
+	},
+	"software-open": {
+		"label": "Software (offen)",
+		"shortLabel": "Software offen",
+		"abbreviation": "SW-off",
+		"excelColHeader": "SW offen",
+		"hint": "Programme, die nicht im Browser aufgerufen werden können (z. B. Desktop-Anwendungen)."
+	},
+	"software-closed": {
+		"label": "Software (geschlossen)",
+		"shortLabel": "Software geschl.",
+		"abbreviation": "SW-gesch",
+		"excelColHeader": "SW geschl.",
+		"hint": "Programme, die nicht im Browser aufgerufen werden können und die keine Schnittstellen zu Assistenztechnologien unterstützten. Das bedeutet, dass Endbenutzer keine Einstellungen ändern, Installationen durchführen oder Anschlüsse hinzufügen können, z. B. Selbstbedienungsterminals."
+	},
+	"mobil-open": {
+		"label": "Mobile Anwendung (offen)",
+		"shortLabel": "Mobile Anwendung offen",
+		"abbreviation": "App-off",
+		"excelColHeader": "Mob offen",
+		"hint": "Programme, die speziell für mobile Geräte entwickelt werden und nicht in einem Browser aufgerufen werden können (z. B. Android- oder iOS-Apps)."
+	},
+	"mobil-closed": {
+		"label": "Mobile Anwendung (geschlossen)",
+		"shortLabel": "Mobile Anwendung geschl.",
+		"abbreviation": "App-gesch",
+		"excelColHeader": "Mob geschl.",
+		"hint": "Programme, die speziell für mobile Geräte entwickelt werden, nicht im Browser aufgerufen werden können und die keine Schnittstellen zu Assistenztechnologien unterstützten. Das bedeutet, dass Endbenutzer keine Einstellungen ändern, Installationen durchführen oder Anschlüsse hinzufügen können, z. B. Software für Handheld-Geräte."
+	},
+	"hardware": {
+		"label": "Hardware",
+		"shortLabel": "Hardware",
+		"abbreviation": "HW",
+		"excelColHeader": "Hard-ware",
+		"hint": "Jede physische Komponente einer IT-Lösung, z. B. PC, Notebook, Drucker, Scanner und andere Peripheriegeräte."
+	},
+	"emergency-services": {
+		"label": "Vermittlungs-/Notrufdienst",
+		"shortLabel": "Vermittlung/Notruf",
+		"abbreviation": "Notruf",
+		"excelColHeader": "Vermittlungs- und Notrufdienste",
+		"hint": "Spezielle Dienstleistungen zur Vermittlung von Kommunikationsdiensten, z. B. Text, Gebärden oder Sprache, oder Dienste, bei denen ein Notruf abgesetzt werden kann. I. d. R. handelt es sich dabei um IT-Angebote, die durch Websites/Webanwendungen, Software oder mobile Anwendungen ausgeführt werden.  Beispiele umfassen die Behördenrufnummer 115, den Ärztlichen Bereitschaftsdienst 116 117 und Notruf-Apps."
+	}
+}

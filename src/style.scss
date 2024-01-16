@@ -1,0 +1,38 @@
+#bmi-stab-app {
+	--kolibri-border-radius: 0;
+	--kolibri-color-primary: #0077b6;
+	--kolibri-color-primary-variant: #0077b6;
+
+	* {
+		font-family: BundesSans Web;
+		hyphens: auto;
+		letter-spacing: inherit;
+		word-break: break-word;
+		word-spacing: inherit;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	p,
+	li {
+		line-height: 1.5;
+	}
+
+	hr {
+		width: 100%;
+	}
+
+	fieldset {
+		border: none;
+		margin: 1em 0 0 0;
+		padding: .5em 0 0 0;
+	}
+
+	kol-alert,
+	kol-details {
+		outline: none;
+	}
+}
