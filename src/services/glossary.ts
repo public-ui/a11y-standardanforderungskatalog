@@ -1,11 +1,16 @@
+import { fetchGlossar } from './globals';
+
 export type GlossaryEntry = { name: string; abbr?: string; desc?: string };
 
 class Glossary {
+	// private _baseUri = '';
 	private _entries?: GlossaryEntry[];
 
 	public async init() {
-		const response = await fetch('config/glossary.json');
-		const json = (await response.json()) as GlossaryEntry[];
+		// this._baseUri = (GLOBALS.get('baseUriConfig') as string) ?? '';
+		// const response = await fetch(`${this._baseUri}config/glossary.json`);
+		// const json = (await response.json()) as GlossaryEntry[];
+		const json = (await fetchGlossar()) as GlossaryEntry[];
 		this._entries = json;
 	}
 
