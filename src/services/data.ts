@@ -1,5 +1,8 @@
+import { Row } from 'read-excel-file';
 import { getDataFromExcel } from '../components/fetch-excel';
 import { ConformityLevel, ConstantCols, Schema } from '../data/schema';
+import EXCEL from './config/katalog.json';
+import { fetchData } from './globals';
 
 type DataConfig = {
 	sheetName: string;
@@ -10,6 +13,7 @@ type DataConfig = {
 const levelRegex = new RegExp('^[A]{1,3}$');
 
 export default class DataService {
+	// private _baseUri = '';
 	private _data?: Schema[];
 
 	/**
@@ -23,10 +27,15 @@ export default class DataService {
 	}
 
 	public loadData = async () => {
-		const response = await fetch('config/data.json');
-		const dataConfig = (await response.json()) as DataConfig;
+		// this._baseUri = (GLOBALS.get('baseUriConfig') as string) ?? '';
+		// const response = await fetch(`${this._baseUri}config/data.json`);
+		// const dataConfig = (await response.json()) as DataConfig;
+		const dataConfig = (await fetchData()) as DataConfig;
 
-		const data = await getDataFromExcel(dataConfig.sheetName);
+		// let data = await getDataFromExcel(dataConfig.sheetName);
+		// console.log('fetch', data);
+		const data = JSON.parse(JSON.stringify(EXCEL)) as Row[];
+		// console.log('file', data);
 
 		// eslint-disable-next-line no-var
 		for (var headerIndex = 0; headerIndex < data.length; headerIndex++) {
