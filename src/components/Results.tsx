@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLoaderData, useNavigate } from 'react-router-dom';
 
-import { KolButton, KolDetails } from '@public-ui/react';
+import { KolButton, KolDetails, KolHeading } from '@public-ui/react';
 
 import { Catalog } from '../data/catalog';
 import { CsvExporter, HtmlExporter } from '../services/exporter';
@@ -38,7 +38,7 @@ export const Results: FC = () => {
 				</div>
 			</div>
 			<div className="grid gap-2">
-				<h2>{t('results.requirementList')}</h2>
+				<KolHeading _label={t('results.requirementList')} _level={2} />
 				{catalog.data.map((d, index) => (
 					<ResultItem key={index} data={d} catalog={catalog} />
 				))}
