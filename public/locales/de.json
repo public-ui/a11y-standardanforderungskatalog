@@ -74,6 +74,10 @@
 				"Die gesamte Liste können Sie als HTML- oder CSV-Dokument exportieren, um den Anforderungskatalog weiterzuverwenden."
 			]
 		},
+		"toolbar": {
+			"collapse-all": "Alle zusammenklappen",
+			"expand-all": "Alle ausklappen"
+		},
 		"export": {
 			"html": "Als HTML-Dokument herunterladen",
 			"csv": "Als CSV-Dokument herunterladen"

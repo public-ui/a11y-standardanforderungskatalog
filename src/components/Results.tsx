@@ -23,13 +23,27 @@ export const Results: FC = () => {
 		description = [];
 	}
 
+	const [expandStates, setExpandStates] = React.useState<boolean[]>(catalog.data.map(() => false));
+	const collapseAll = () => setExpandStates([...expandStates.map((_) => false)]);
+	const expandAll = () => setExpandStates([...expandStates.map((_) => true)]);
+	const setExpandedStateAt = (expanded: boolean, index: number) => {
+		expandStates[index] = e;
+		return setExpandStates([...expandStates]);
+	};
+
 	return (
 		<>
 			<KolDetails _label={t('results.description.headline')} _open={showExplanations} _on={{ onToggle: (_, o: boolean) => setShowExplanations(o) }}>
 				<MdText textBlocks={description} />
 			</KolDetails>
 			<hr />
-			<div className="grid gap-2 sm:grid-cols-2 sm:justify-items-center">
+			<div className="flex flex-wrap gap-2 flex-justify-center">
+				<div>
+					<KolButton className="w-full" _label={t('results.toolbar.collapse-all')} _on={{ onClick: collapseAll }} />
+				</div>
+				<div>
+					<KolButton className="w-full" _label={t('results.toolbar.expand-all')} _on={{ onClick: expandAll }} />
+				</div>
 				<div>
 					<KolButton className="w-full" _label={t('results.export.html')} _on={{ onClick: () => new HtmlExporter(catalog).download() }} />
 				</div>
@@ -40,7 +54,7 @@ export const Results: FC = () => {
 			<div className="grid gap-2">
 				<KolHeading _label={t('results.requirementList')} _level={2} />
 				{catalog.data.map((d, index) => (
-					<ResultItem key={index} data={d} catalog={catalog} />
+					<ResultItem key={index} data={d} catalog={catalog} expanded={expandStates[index]} onExpandToggled={(e) => setExpandedStateAt(e, index)} />
 				))}
 			</div>
 			<div className="text-center">
