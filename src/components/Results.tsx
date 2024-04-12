@@ -27,7 +27,7 @@ export const Results: FC = () => {
 	const collapseAll = () => setExpandStates([...expandStates.map((_) => false)]);
 	const expandAll = () => setExpandStates([...expandStates.map((_) => true)]);
 	const setExpandedStateAt = (expanded: boolean, index: number) => {
-		expandStates[index] = e;
+		expandStates[index] = expanded;
 		return setExpandStates([...expandStates]);
 	};
 
@@ -37,20 +37,20 @@ export const Results: FC = () => {
 				<MdText textBlocks={description} />
 			</KolDetails>
 			<hr />
-			<div className="flex flex-wrap gap-2 flex-justify-center">
-				<div>
+			<ul className="flex flex-wrap gap-2 flex-justify-center">
+				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.toolbar.collapse-all')} _on={{ onClick: collapseAll }} />
-				</div>
-				<div>
+				</li>
+				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.toolbar.expand-all')} _on={{ onClick: expandAll }} />
-				</div>
-				<div>
+				</li>
+				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.export.html')} _on={{ onClick: () => new HtmlExporter(catalog).download() }} />
-				</div>
-				<div>
+				</li>
+				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.export.csv')} _on={{ onClick: () => new CsvExporter(catalog).download() }} />
-				</div>
-			</div>
+				</li>
+			</ul>
 			<div className="grid gap-2">
 				<KolHeading _label={t('results.requirementList')} _level={2} />
 				{catalog.data.map((d, index) => (
