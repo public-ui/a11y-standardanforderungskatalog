@@ -30,7 +30,7 @@ export const MdText: FC<Props> = ({ textBlocks }) => {
 		}
 	}
 
-	const replaceForeignLanguageTexts = (inputText: string, baseIndex: number) => {
+	const replaceForeignLanguageTexts = (inputText: string, keyPrefix: string) => {
 		const regex = /(<en>)(.*?)(<\/en>)/g; // https://regex101.com/r/URtAGX/1
 		const parts = inputText.split(regex);
 		const elements: React.JSX.Element[] = [];
@@ -39,20 +39,20 @@ export const MdText: FC<Props> = ({ textBlocks }) => {
 			if (index % 4 === 2) {
 				// Englischer Text
 				elements.push(
-					<span key={`${baseIndex}-${index}`} lang="en">
-						{part}
+					<span key={`${keyPrefix}${index}`} lang="en">
+						{replaceMarkdownLinks(part, `${keyPrefix}${index}-`)}
 					</span>,
 				);
 			} else if (index % 4 === 0 && part !== '') {
 				// Normaler Text
-				elements.push(<GlossaryText key={`${baseIndex}-${index}`} text={part} />);
+				elements.push(...replaceMarkdownLinks(part, `${keyPrefix}${index}-`));
 			}
 		});
 
 		return elements;
 	};
 
-	const replaceMarkdownLinks = (inputText: string) => {
+	const replaceMarkdownLinks = (inputText: string, keyPrefix: string) => {
 		const regex = /\[([^[]*?)]\((.*?)\)/g; // https://regex101.com/r/1XpBTD/1
 		const parts = inputText.split(regex);
 		const elements: React.JSX.Element[] = [];
@@ -63,7 +63,7 @@ export const MdText: FC<Props> = ({ textBlocks }) => {
 				elements.push(<KolLink key={index.toString()} _href={parts[index + 1]} _label={part} _target="blank"></KolLink>);
 			} else if (index % 3 === 0 && part !== '') {
 				// Normaler Text ohne Link
-				elements.push(...replaceForeignLanguageTexts(part, index));
+				elements.push(<GlossaryText key={`${keyPrefix}${index}`} text={part} />);
 			}
 		});
 
@@ -74,12 +74,12 @@ export const MdText: FC<Props> = ({ textBlocks }) => {
 		<>
 			{blocks.map((block, i) => {
 				if (block.type === 'p') {
-					return <p key={i}>{replaceMarkdownLinks(block.blocks[0])}</p>;
+					return <p key={i}>{replaceForeignLanguageTexts(block.blocks[0], '')}</p>;
 				} else if (block.type === 'ul') {
 					return (
 						<ul key={i}>
 							{block.blocks.map((b, i2) => (
-								<li key={i2}>{replaceMarkdownLinks(b)}</li>
+								<li key={i2}>{replaceForeignLanguageTexts(b, '')}</li>
 							))}
 						</ul>
 					);
@@ -87,7 +87,7 @@ export const MdText: FC<Props> = ({ textBlocks }) => {
 					return (
 						<ol key={i}>
 							{block.blocks.map((b, i2) => (
-								<li key={i2}>{replaceMarkdownLinks(b)}</li>
+								<li key={i2}>{replaceForeignLanguageTexts(b, '')}</li>
 							))}
 						</ol>
 					);
