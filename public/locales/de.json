@@ -76,8 +76,7 @@
 		},
 		"toolbar": {
 			"desc": "Aktionen auf der Ergebnisliste",
-			"collapse-all": "Alle zusammenklappen",
-			"expand-all": "Alle ausklappen"
+			"all-expanded": "Alle ausgeklappt"
 		},
 		"export": {
 			"html": "Als HTML-Dokument herunterladen",
