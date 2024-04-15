@@ -59,7 +59,7 @@ export const ResultItem: FC<Props> = ({ data: item, catalog, expanded, onExpandT
 
 	return (
 		<KolAccordion _label={item.title} _level={3} _open={expanded} _on={{ onClick: (_, expanded) => onExpandToggled(expanded) }}>
-			<div slot="content" className="grid gap-2">
+			<div slot="" className="grid gap-2">
 				<div>
 					<div className={`grid grid-cols-2 gap-4`}>
 						<div>
