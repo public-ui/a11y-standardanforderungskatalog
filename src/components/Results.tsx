@@ -39,10 +39,10 @@ export const Results: FC = () => {
 			<hr />
 			<ul className="flex flex-wrap gap-2 flex-justify-center list-none" aria-label={t('results.toolbar.desc')}>
 				<li className="p-0 m-0">
-					<KolButton className="w-full" _label={t('results.toolbar.collapse-all')} _on={{ onClick: collapseAll }} />
+					<KolButton className="w-full" _label={t('results.toolbar.expand-all')} _on={{ onClick: expandAll }} />
 				</li>
 				<li className="p-0 m-0">
-					<KolButton className="w-full" _label={t('results.toolbar.expand-all')} _on={{ onClick: expandAll }} />
+					<KolButton className="w-full" _label={t('results.toolbar.collapse-all')} _on={{ onClick: collapseAll }} />
 				</li>
 				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.export.html')} _on={{ onClick: () => new HtmlExporter(catalog).download() }} />
