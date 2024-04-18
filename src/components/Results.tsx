@@ -40,7 +40,7 @@ export const Results: FC = () => {
 				<MdText textBlocks={description} />
 			</KolDetails>
 			<hr />
-			<ul className="flex flex-wrap gap-2 flex-justify-center" aria-label={t('results.toolbar.desc')}>
+			<ul className="flex flex-wrap gap-2 flex-justify-center list-none" aria-label={t('results.toolbar.desc')}>
 				<li className="p-0 m-0">
 					<KolButton className="w-full" _label={t('results.export.html')} _on={{ onClick: () => new HtmlExporter(catalog).download() }} />
 				</li>
