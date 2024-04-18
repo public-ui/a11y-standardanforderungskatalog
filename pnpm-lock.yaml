@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@public-ui/components':
-    specifier: 1.7.6-rc.0
-    version: 1.7.6-rc.0
+    specifier: 2.0.14
+    version: 2.0.14
   '@public-ui/react':
-    specifier: 1.7.5
-    version: 1.7.5(@public-ui/components@1.7.6-rc.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 2.0.14
+    version: 2.0.14(@public-ui/components@2.0.14)(react-dom@18.2.0)(react@18.2.0)
   '@public-ui/themes':
-    specifier: 1.7.5
-    version: 1.7.5(@public-ui/components@1.7.6-rc.0)
+    specifier: 2.0.14
+    version: 2.0.14(@public-ui/components@2.0.14)
   csv-stringify:
     specifier: 6.4.4
     version: 6.4.4
@@ -2823,28 +2823,28 @@ packages:
       - domexception
     dev: true
 
-  /@public-ui/components@1.7.6-rc.0:
-    resolution: {integrity: sha512-PHggjhuNkegeY/Bvoo09qvu2RO4bg52eXIsFyhvh4Qj268hqDH0W7G+YV3A/X4G36ykGdGzWsJT3gqsTmQCo/Q==}
+  /@public-ui/components@2.0.14:
+    resolution: {integrity: sha512-cWqV9NZvKpXiyZp18ZdIId2Ke2JxgmZ4qWRVnKf729s6y2UfeB0L+5BS+mFXX7oF798H6vV7oGsSeU6aoPZhyw==}
     dev: false
 
-  /@public-ui/react@1.7.5(@public-ui/components@1.7.6-rc.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-hdTZ4gBL7d49cLS95wg7Oqypo0DpElekkqU6JZprCpSqpe9YVPj/6J0ZmLU+AVffWW5IsbulDv4ZwBhxqQMcgA==}
+  /@public-ui/react@2.0.14(@public-ui/components@2.0.14)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-yaZpRyG+b+eX8+PCfYBRC65zRRH32aCJvhIWTTZRv9NnE8xA349cTO31Ow7rEvYwagWCpEmLKlpHBZhQKHXt8w==}
     peerDependencies:
-      '@public-ui/components': 1.7.5
+      '@public-ui/components': 2.0.14
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
     dependencies:
-      '@public-ui/components': 1.7.6-rc.0
+      '@public-ui/components': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@public-ui/themes@1.7.5(@public-ui/components@1.7.6-rc.0):
-    resolution: {integrity: sha512-2xZulDHOo4wfgNgotyX27DpSXudHHA0qyhqXh0Z6mQSh6S2HPnoZLdymHl/Z9RThM39CRW2+WLg29NkXr5CFcg==}
+  /@public-ui/themes@2.0.14(@public-ui/components@2.0.14):
+    resolution: {integrity: sha512-9zgw93D7Y31lNz+MQVU64vjsgmfbOVgmMsgpMBW9aHhnT8nkAi+EN6pNtQl5JiEEs3auVLRHCA+B/btEe6RB7Q==}
     peerDependencies:
-      '@public-ui/components': 1.7.5
+      '@public-ui/components': 2.0.14
     dependencies:
-      '@public-ui/components': 1.7.6-rc.0
+      '@public-ui/components': 2.0.14
     dev: false
 
   /@remix-run/router@1.11.0:
