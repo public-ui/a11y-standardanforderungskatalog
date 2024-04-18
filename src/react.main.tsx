@@ -177,6 +177,9 @@ void (async () => {
 				padding: 0;
 			}`,
 		);
+		KoliBriDevHelper.patchThemeTag('default', 'KOL-INPUT-CHECKBOX', '.button .input-label { padding-right: 1rem; }', {
+			append: true,
+		});
 
 		const htmlElement: HTMLElement | null = document.querySelector<HTMLDivElement>('div#bmi-stab-app');
 		if (htmlElement instanceof HTMLElement) {
