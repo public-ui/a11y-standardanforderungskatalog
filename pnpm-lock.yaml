@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@public-ui/components':
-    specifier: 2.0.12
-    version: 2.0.12
+    specifier: 2.0.14
+    version: 2.0.14
   '@public-ui/react':
-    specifier: 2.0.12
-    version: 2.0.12(@public-ui/components@2.0.12)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 2.0.14
+    version: 2.0.14(@public-ui/components@2.0.14)(react-dom@18.2.0)(react@18.2.0)
   '@public-ui/themes':
-    specifier: 2.0.12
-    version: 2.0.12(@public-ui/components@2.0.12)
+    specifier: 2.0.14
+    version: 2.0.14(@public-ui/components@2.0.14)
   csv-stringify:
     specifier: 6.4.4
     version: 6.4.4
@@ -2823,28 +2823,28 @@ packages:
       - domexception
     dev: true
 
-  /@public-ui/components@2.0.12:
-    resolution: {integrity: sha512-YNphX3FCUOqevqNX/C6z0bfvl4d2wFSUKNKCLEQjDFgnhyO17JRwU4cnkS3xYMXws7IJY7kfcHcE/zEzMtGXAg==}
+  /@public-ui/components@2.0.14:
+    resolution: {integrity: sha512-cWqV9NZvKpXiyZp18ZdIId2Ke2JxgmZ4qWRVnKf729s6y2UfeB0L+5BS+mFXX7oF798H6vV7oGsSeU6aoPZhyw==}
     dev: false
 
-  /@public-ui/react@2.0.12(@public-ui/components@2.0.12)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-6HQG044bhHMWKcirpynk0rmcjGyVa0Opjmm9RQhs6Vqx5lce4Cg9w6C3vSA4GDfdmUYxrrUkmLIaEZ6yWqQh9A==}
+  /@public-ui/react@2.0.14(@public-ui/components@2.0.14)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-yaZpRyG+b+eX8+PCfYBRC65zRRH32aCJvhIWTTZRv9NnE8xA349cTO31Ow7rEvYwagWCpEmLKlpHBZhQKHXt8w==}
     peerDependencies:
-      '@public-ui/components': 2.0.12
+      '@public-ui/components': 2.0.14
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
     dependencies:
-      '@public-ui/components': 2.0.12
+      '@public-ui/components': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@public-ui/themes@2.0.12(@public-ui/components@2.0.12):
-    resolution: {integrity: sha512-QN35HX0yGCZ5zebD/tH33PspXOhxAV1CD88vGKxVz0eXpUAWTPLaABHHYhGvsfCx8W6736IL+3hjvlCo8CIq6A==}
+  /@public-ui/themes@2.0.14(@public-ui/components@2.0.14):
+    resolution: {integrity: sha512-9zgw93D7Y31lNz+MQVU64vjsgmfbOVgmMsgpMBW9aHhnT8nkAi+EN6pNtQl5JiEEs3auVLRHCA+B/btEe6RB7Q==}
     peerDependencies:
-      '@public-ui/components': 2.0.12
+      '@public-ui/components': 2.0.14
     dependencies:
-      '@public-ui/components': 2.0.12
+      '@public-ui/components': 2.0.14
     dev: false
 
   /@remix-run/router@1.11.0:
