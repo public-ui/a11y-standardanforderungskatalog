@@ -39,7 +39,7 @@
 		"@public-ui/components": "2.0.14",
 		"@public-ui/react": "2.0.14",
 		"@public-ui/themes": "2.0.14",
-		"csv-stringify": "6.4.4",
+		"csv-stringify": "6.4.6",
 		"i18next": "23.6.0",
 		"markdown-it": "13.0.2",
 		"react": "18.2.0",

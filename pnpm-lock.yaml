@@ -15,8 +15,8 @@ dependencies:
     specifier: 2.0.14
     version: 2.0.14(@public-ui/components@2.0.14)
   csv-stringify:
-    specifier: 6.4.4
-    version: 6.4.4
+    specifier: 6.4.6
+    version: 6.4.6
   i18next:
     specifier: 23.6.0
     version: 23.6.0
@@ -3220,7 +3220,7 @@ packages:
     resolution: {integrity: sha512-jNRWx49wIc9UjJXukCaQt8iZRjyzDiEC1CGAAIZsydECWl5xM9oq4pSc5+Jhl4oATrRr+eGA9Vf0y9duDbKAvg==}
     deprecated: This is a stub types definition. csv-stringify provides its own type definitions, so you do not need this installed.
     dependencies:
-      csv-stringify: 6.4.4
+      csv-stringify: 6.4.6
     dev: true
 
   /@types/eslint-scope@3.7.6:
@@ -5355,8 +5355,8 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /csv-stringify@6.4.4:
-    resolution: {integrity: sha512-NDshLupGa7gp4UG4sSNIqwYJqgSwvds0SvENntxoVoVvTzXcrHvd5gG2MWpbRpSNvk59dlmIe1IwNvSxN4IVmg==}
+  /csv-stringify@6.4.6:
+    resolution: {integrity: sha512-h2V2XZ3uOTLilF5dPIptgUfN/o2ia/80Ie0Lly18LAnw5s8Eb7kt8rfxSUy24AztJZas9f6DPZpVlzDUtFt/ag==}
 
   /damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
