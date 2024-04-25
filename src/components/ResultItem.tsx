@@ -33,9 +33,11 @@ function compareChapterNumbers(a: string, b: string) {
 type Props = {
 	data: Schema;
 	catalog: Catalog;
+	expanded: boolean;
+	onExpandToggled: (expanded: boolean) => void;
 };
 
-export const ResultItem: FC<Props> = ({ data: item, catalog }) => {
+export const ResultItem: FC<Props> = ({ data: item, catalog, expanded, onExpandToggled }) => {
 	const { t } = useTranslation();
 
 	const chapterGroups = Object.entries(configurationService.kindOptions)
@@ -56,8 +58,8 @@ export const ResultItem: FC<Props> = ({ data: item, catalog }) => {
 		);
 
 	return (
-		<KolAccordion _label={item.title} _level={3}>
-			<div slot="content" className="grid gap-2">
+		<KolAccordion _label={item.title} _level={3} _open={expanded} _on={{ onClick: (_, expanded) => onExpandToggled(expanded) }}>
+			<div className="grid gap-2">
 				<div>
 					<div className={`grid grid-cols-2 gap-4`}>
 						<div>
