@@ -177,9 +177,21 @@ void (async () => {
 				padding: 0;
 			}`,
 		);
-		KoliBriDevHelper.patchThemeTag('default', 'KOL-INPUT-CHECKBOX', '.button .input-label { padding-right: 1rem; }', {
-			append: true,
-		});
+		KoliBriDevHelper.patchThemeTag(
+			'default',
+			'KOL-INPUT-CHECKBOX',
+			`
+			.button .input-label { padding-right: 1rem; }
+			.button .input-label .input-label-span {
+				margin: auto auto;
+				font-weight: 700;
+			}
+
+			`,
+			{
+				append: true,
+			},
+		);
 
 		const htmlElement: HTMLElement | null = document.querySelector<HTMLDivElement>('div#bmi-stab-app');
 		if (htmlElement instanceof HTMLElement) {
