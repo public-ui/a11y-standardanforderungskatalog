@@ -43,6 +43,8 @@ Thumbs.db
 *.cvs
 *.pdf
 *.tgz
+
+/public/config/*.xlsx
 /src/services/config/
 /src/services/locales/
 
