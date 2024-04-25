@@ -44,6 +44,7 @@ Thumbs.db
 *.pdf
 *.tgz
 /src/services/config/
+/src/services/locales/
 
 # Explicitly allowed
 .kolibri.migrate.json
