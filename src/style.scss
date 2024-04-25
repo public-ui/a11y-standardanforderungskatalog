@@ -37,4 +37,10 @@
 	kol-details {
 		outline: none;
 	}
+
+	/** not working with unocss **/
+	.list-none {
+		list-style-type: none;
+	}
+
 }
