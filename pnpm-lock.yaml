@@ -50,8 +50,8 @@ devDependencies:
     specifier: 1.3.48
     version: 1.3.48(typescript@5.2.2)
   '@leanup/stack-react':
-    specifier: 1.3.48
-    version: 1.3.48(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.3.50
+    version: 1.3.50(react-dom@18.2.0)(react@18.2.0)
   '@leanup/stack-webpack':
     specifier: 1.3.48
     version: 1.3.48(@leanup/stack@1.3.48)
@@ -2468,8 +2468,8 @@ packages:
       - supports-color
     dev: true
 
-  /@leanup/stack-react@1.3.48(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-P2ncKmz73ErDStGD/MPqG8U32DZD++N3n4fg17Lr8DUZMUgiRJzjq5AivnccsEoe40VM+oUsxqWQLb5qo4afRQ==}
+  /@leanup/stack-react@1.3.50(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cbdgwVTKW5t1x9boTFGcCTQf5u9Qtv/eR3lkSbU4TwzR8eC1Ck91hrOY4jnrjk50962O9Luve7/sSW8dkInkfQ==}
     peerDependencies:
       react: ^18 || ^17 || ^16
       react-dom: ^18 || ^17 || ^16
