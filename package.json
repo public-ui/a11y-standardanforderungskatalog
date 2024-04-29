@@ -63,7 +63,7 @@
 		"@types/react-dom": "18.2.14",
 		"@typescript-eslint/eslint-plugin": "7.7.1",
 		"@typescript-eslint/parser": "6.9.1",
-		"@unocss/preset-mini": "0.57.2",
+		"@unocss/preset-mini": "0.59.4",
 		"@unocss/webpack": "0.57.2",
 		"ajv": "8.12.0",
 		"cpy-cli": "5.0.0",

@@ -83,8 +83,8 @@ devDependencies:
     specifier: 6.9.1
     version: 6.9.1(typescript@5.2.2)
   '@unocss/preset-mini':
-    specifier: 0.57.2
-    version: 0.57.2
+    specifier: 0.59.4
+    version: 0.59.4
   '@unocss/webpack':
     specifier: 0.57.2
     version: 0.57.2
@@ -3789,26 +3789,30 @@ packages:
     resolution: {integrity: sha512-iTmowhObigxeqcxtEW4v+mAEQtFslifTG0Fiw8kXs3+t4L6fcnjj0i7/FtBbz+nOxrWyt2EzdkUyjpLGQa/yCw==}
     dev: true
 
-  /@unocss/extractor-arbitrary-variants@0.57.2:
-    resolution: {integrity: sha512-f6sc8pfgHbJua1VzdpFSPW92lNyIBRl93avRNk+HM4iWAhxBPD3LsCxSS7kOnQg2tFe6YsRkm8QkuF6SjFq1AA==}
-    dependencies:
-      '@unocss/core': 0.57.2
+  /@unocss/core@0.59.4:
+    resolution: {integrity: sha512-bBZ1sgcAtezQVZ1BST9IS3jqcsTLyqKNjiIf7FTnX3DHpfpYuMDFzSOtmkZDzBleOLO/CtcRWjT0HwTSQAmV0A==}
     dev: true
 
-  /@unocss/preset-mini@0.57.2:
-    resolution: {integrity: sha512-ZahZ8TWa40SVnJw6fYFhYzLFMCZU3obMBNl0otallevoooKLXIDZL2VmHxFDqCvwaAk9DYsAzPrqUpNWr6bPgA==}
+  /@unocss/extractor-arbitrary-variants@0.59.4:
+    resolution: {integrity: sha512-RDe4FgMGJQ+tp9GLvhPHni7Cc2O0lHBRMElVlN8LoXJAdODMICdbrEPGJlEfrc+7x/QgVFoR895KpYJh3hIgGA==}
     dependencies:
-      '@unocss/core': 0.57.2
-      '@unocss/extractor-arbitrary-variants': 0.57.2
-      '@unocss/rule-utils': 0.57.2
+      '@unocss/core': 0.59.4
     dev: true
 
-  /@unocss/rule-utils@0.57.2:
-    resolution: {integrity: sha512-fgAc5gkZo8JLDe9vMisofSck3k1nN05+kblKhrEaq/+gS5bxHzL9VNExtiTbT00wyMKGjak/uC7qDMbdVmUhYg==}
+  /@unocss/preset-mini@0.59.4:
+    resolution: {integrity: sha512-ZLywGrXi1OCr4My5vX2rLUb5Xgx6ufR9WTQOvpQJGBdIV/jnZn/pyE5avCs476SnOq2K172lnd8mFmTK7/zArA==}
+    dependencies:
+      '@unocss/core': 0.59.4
+      '@unocss/extractor-arbitrary-variants': 0.59.4
+      '@unocss/rule-utils': 0.59.4
+    dev: true
+
+  /@unocss/rule-utils@0.59.4:
+    resolution: {integrity: sha512-1qoLJlBWAkS4D4sg73990S1MT7E8E5md/YhopKjTQuEC9SyeVmEg+5pR/Xd8xhPKMqbcuBPl/DS8b6l/GQO56A==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': 0.57.2
-      magic-string: 0.30.5
+      '@unocss/core': 0.59.4
+      magic-string: 0.30.10
     dev: true
 
   /@unocss/webpack@0.57.2:
@@ -8667,6 +8671,12 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /magic-string@0.30.10:
+    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /magic-string@0.30.5:
