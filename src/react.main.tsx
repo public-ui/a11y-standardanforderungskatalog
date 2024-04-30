@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client';
 
 import { KoliBriDevHelper, register } from '@public-ui/components';
 import { defineCustomElements } from '@public-ui/components/dist/loader';
-import { DEFAULT } from '@public-ui/themes';
+import { DEFAULT } from '@public-ui/theme-default';
+
 import { App } from './components/App';
 import configurationService from './services/configuration';
 import glossary from './services/glossary';
