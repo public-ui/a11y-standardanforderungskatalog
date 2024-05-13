@@ -65,7 +65,7 @@
 		"@types/react-dom": "18.3.0",
 		"@typescript-eslint/eslint-plugin": "7.8.0",
 		"@typescript-eslint/parser": "7.8.0",
-		"@unocss/preset-mini": "0.59.4",
+		"@unocss/preset-mini": "0.60.2",
 		"@unocss/webpack": "0.59.4",
 		"ajv": "8.13.0",
 		"chromedriver": "124.0.1",
