@@ -43,7 +43,7 @@
 		"@public-ui/theme-default": "2.1.0",
 		"@public-ui/themes": "2.1.0",
 		"csv-stringify": "6.4.6",
-		"i18next": "23.11.3",
+		"i18next": "23.11.4",
 		"markdown-it": "14.1.0",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
