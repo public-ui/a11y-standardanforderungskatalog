@@ -134,7 +134,7 @@ importers:
         version: 3.2.5
       raw-loader:
         specifier: '*'
-        version: 4.0.2(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.19.10)(webpack-cli@4.10.0))
+        version: 4.0.2(webpack@5.91.0)
       read-excel-file:
         specifier: 5.7.1
         version: 5.7.1
@@ -6255,7 +6255,7 @@ snapshots:
       '@types/node': 20.5.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.4.5)
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.4.5))(ts-node@10.9.2(@swc/core@1.5.0)(@types/node@20.8.7)(typescript@5.4.5))(typescript@5.4.5)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.4.5))(ts-node@10.9.2(@swc/core@1.5.0)(@types/node@20.12.7)(typescript@5.4.5))(typescript@5.4.5)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -8177,11 +8177,11 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.4.5))(ts-node@10.9.2(@swc/core@1.5.0)(@types/node@20.8.7)(typescript@5.4.5))(typescript@5.4.5):
+  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.4.5))(ts-node@10.9.2(@swc/core@1.5.0)(@types/node@20.12.7)(typescript@5.4.5))(typescript@5.4.5):
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@5.4.5)
-      ts-node: 10.9.2(@swc/core@1.5.0)(@types/node@20.8.7)(typescript@5.4.5)
+      ts-node: 10.9.2(@swc/core@1.5.0)(@types/node@20.12.7)(typescript@5.4.5)
       typescript: 5.4.5
 
   cosmiconfig@7.1.0:
@@ -11307,7 +11307,7 @@ snapshots:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  raw-loader@4.0.2(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.19.10)(webpack-cli@4.10.0)):
+  raw-loader@4.0.2(webpack@5.91.0):
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
