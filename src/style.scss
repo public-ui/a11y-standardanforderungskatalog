@@ -2,7 +2,9 @@
 	--kolibri-border-radius: 0;
 	--kolibri-color-primary: #0077b6;
 	--kolibri-color-primary-variant: #0077b6;
-
+	--kolibri-font-size: 16px;
+}
+#bmi-standardanforderungskatalog-app {
 	* {
 		font-family: BundesSans Web;
 		hyphens: auto;
@@ -28,7 +30,7 @@
 	fieldset {
 		border: none;
 		margin: 1em 0 0 0;
-		padding: .5em 0 0 0;
+		padding: 0.5em 0 0 0;
 	}
 
 	kol-alert,
@@ -40,5 +42,4 @@
 	.list-none {
 		list-style-type: none;
 	}
-
 }

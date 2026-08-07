@@ -1,18 +1,20 @@
 import './fetch-excel';
 
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 import { createHashRouter, redirect, RouterProvider } from 'react-router-dom';
 
-import { KolHeading, KolKolibri, KolLink } from '@public-ui/react';
+import { KolKolibri, KolLink } from '@public-ui/react';
 
 import packageJson from '../../package.json';
 import { Catalog } from '../data/catalog';
 import { RequirenmentSetup } from '../data/setup';
 import DataService from '../services/data';
 import { Configurator } from './Configurator';
-import { Results } from './Results';
 import './fetch-excel';
+import { Results } from './Results';
+import configurationService from '../services/configuration';
+import initLocales from '../services/i18n';
+import glossary from '../services/glossary';
 
 const scrollToTop = () => {
 	setTimeout(() => {
@@ -39,6 +41,7 @@ const router = createHashRouter([
 	{
 		path: '/results',
 		loader: async ({ request }) => {
+			await Promise.all([configurationService.init(), initLocales(), glossary.init()]);
 			const url = new URL(request.url);
 			const q = url.searchParams;
 
@@ -61,17 +64,17 @@ const router = createHashRouter([
 ]);
 
 export const App: FC = () => {
-	const { t } = useTranslation();
+	// const { t } = useTranslation();
 
 	return (
 		<div className="bpa container mx-auto max-w-768px p-4" data-theme="bpa">
 			<div className="p-4 shadow-lg rounded flex flex-col gap-2" data-theme="bpa">
-				<KolHeading className="border-0 border-b border-style-solid mb-2 pb-2 border-gray-400 block" _label={t('appTitle')}></KolHeading>
+				{/* <KolHeading className="border-0 border-b border-style-solid mb-2 pb-2 border-gray-400 block" _label={t('appTitle')}></KolHeading> */}
 				<RouterProvider router={router} />
 			</div>
 			<p className="m-6 mb-0 text-gray-500 grid gap-2 sm:grid-cols-[1fr_auto] text-center">
 				<span className="mr-2 inline-flex gap-2 place-center sm:text-left">
-					<KolKolibri className="inline-flex h-8 -mt-2" _labeled={false} />
+					<KolKolibri className="inline-flex h-12 -mt-2" _labeled={false} />
 					<span>
 						Technische Realisierung mit <KolLink _href="https://public-ui.github.io" _label="KoliBri" /> vom{' '}
 						<KolLink _href="https://itzbund.de" _label="ITZBund" />

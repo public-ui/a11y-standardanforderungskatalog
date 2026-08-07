@@ -12,7 +12,7 @@ src/__generated__
 
 
 # Node.js
-node_modules*
+/node_modules*/
 npm-debug.log
 
 
@@ -41,14 +41,12 @@ Thumbs.db
 # No data
 *.csv
 *.cvs
-*.xlsx
 *.pdf
 *.tgz
-/public/assets/**
+
+/public/config/*.xlsx
+/src/services/config/
+/src/services/locales/
 
 # Explicitly allowed
-!/public/assets/bmi-stab.svg
-!/public/assets/kolibri.ico
-!/public/assets/kolibri.png
-
 .kolibri.migrate.json

@@ -1,12 +1,12 @@
-import React, { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-
 import { KoliBriDevHelper, register } from '@public-ui/components';
-import { defineCustomElements } from '@public-ui/components/dist/loader';
-import { DEFAULT } from '@public-ui/theme-default';
+import React, { StrictMode } from 'react';
 
 import { App } from './components/App';
+import { DEFAULT } from '@public-ui/theme-default';
+import { GLOBALS } from './services/globals';
 import configurationService from './services/configuration';
+import { createRoot } from 'react-dom/client';
+import { defineCustomElements } from '@public-ui/components/dist/loader';
 import glossary from './services/glossary';
 import initLocales from './services/i18n';
 
@@ -62,6 +62,8 @@ void (async () => {
 		const htmlElement: HTMLElement | null = document.querySelector<HTMLDivElement>('div#bmi-standardanforderungskatalog-app');
 		if (htmlElement instanceof HTMLElement) {
 			const root = createRoot(htmlElement);
+			const baseUriConfig = htmlElement.dataset.baseUriConfig ?? 'https://kolibri.bund.de/stdanfkat/current/';
+			GLOBALS.set('baseUriConfig', baseUriConfig);
 			await Promise.all([configurationService.init(), initLocales(), glossary.init()]);
 			root.render(
 				<StrictMode>
